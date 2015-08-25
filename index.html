@@ -14,8 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
     <style type="text/css">
-      #textbox {
+      #editor {
         width: 100%;
+        height: 300px;
       }
     </style>
   </head>
@@ -51,20 +52,20 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <textarea rows="20" id="textbox"></textarea>
-        </div>
-      </div>
+          <div id="editor">function foo(items) {
+              var x = "All this is syntax highlighted";
+              return x;
+          }</div>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="../assets/js/jquery.highlighttextarea.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../assets/js/ace/src/ace.js"></script>
     <script type="text/javascript">
-      $('#textbox').highlightTextarea({
-        words: ['Lorem ipsum', 'vulputate']
-      });
+      var editor = ace.edit("editor");
+      editor.setTheme("ace/theme/vibrant_ink");
+      editor.getSession().setMode("ace/mode/json");
+
     </script>
   </body>
 </html>
