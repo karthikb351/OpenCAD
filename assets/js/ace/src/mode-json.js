@@ -61,6 +61,10 @@ var JsonHighlightRules = function() {
 
     this.$rules = {
         "start" : [
+            // {
+            //     token : "string",
+            //     regex : /\{\{[^\{\}]*\}\}/
+            // },
             {
                 token : "constant.language.boolean",
                 regex : /\[\[[^\[\]]*\]\]/
@@ -74,8 +78,16 @@ var JsonHighlightRules = function() {
                 regex : /\<\<[^\<\>]*\>\>/
             },
             {
+                token : "invalid.illegal",
+                regex : /\|\#[^\|\#]*\|\#/
+            },
+            {
+                token : "constant.language.boolean",
+                regex : /\|\|[^\|]*\|\|/
+            },
+            {
                 token : "string",
-                regex : /\{\{([^\{\}]|[\s\S])*\}\}/
+                regex : /\#\#[^\#]*\#\#/
             }
         ]
     };

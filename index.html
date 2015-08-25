@@ -15,7 +15,6 @@
   <![endif]-->
     <style type="text/css">
       #editor {
-        width: 100%;
         height: 500px;
       }
     </style>
@@ -43,19 +42,20 @@
           </div>
         </div>
       </div>
-          <div id="editor">function foo(items) {
-              var x = "All this is syntax highlighted";
-              return x;
-          }</div>
+          <div id="editor">
+            [[Paste]] the [[[contents]]] of your text here to |#highlight|# tags 
+          </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="../OpenCAD/assets/js/ace/src/ace.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../assets/js/ace/src/ace.js"></script>
     <script type="text/javascript">
       var editor = ace.edit("editor");
       editor.setTheme("ace/theme/vibrant_ink");
       editor.getSession().setMode("ace/mode/json");
+      editor.getSession().setUseWrapMode(true);
+      editor.getSession().setWrapLimitRange(120, 120);
 
     </script>
   </body>
