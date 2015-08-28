@@ -1,0 +1,14 @@
+{
+  "name": "generating-indices",
+  "version": "1.0.0",
+  "description": "Generates indexes for the different markups from the transcript files",
+  "scripts": {
+    "start": "node generate-index.js"
+  },
+  "author": "Kishore Narendran",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "jsonfile": "^2.2.1"
+  }
+}
