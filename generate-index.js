@@ -96,7 +96,14 @@ var parseLine = function(line, callback) {
     result["content_category"] = singleRegexMatch(line, contentCategoryRegex);
 
     var foreignConstitutionsRegex = /\#\/(.*)\#\//;
-    result["foreign_consitutions"] = singleRegexMatch(line, foreignConstitutionsRegex);
+    var foreignConstitutions;
+    if((foreignConstitutions = singleRegexMatch(line, foreignConstitutionsRegex)) != null) {
+      foreignConstitutions = foreignConstitutions.split(',');
+      for(var i = 0; i < foreignConstitutions.length; i++) {
+        foreignConstitutions[i] = foreignConstitutions[i].trim();
+      }
+    }
+    result["foreign_consitutions"] = foreignConstitutions;
   }
   callback(null, result);
 };
