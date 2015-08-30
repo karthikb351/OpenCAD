@@ -37,82 +37,124 @@ var finishParsingLines = function(err, results) {
   });
 };
 
-var singleRegexMatch = function(text, pattern) {
+//Template function to find single regex matches
+var singleRegexMatch = function(text, pattern, callback) {
   var textMatch = text.match(pattern);
   if(textMatch == null) {
-    return null;
+    callback(null, null);
   }
   else {
-    return textMatch[1];
+    callback(null, textMatch[1]);
   }
 }
 
-var multipleRegexMatch = function(text, pattern) {
+//Template function to find multiple regex matches
+var multipleRegexMatch = function(text, pattern, callback) {
   var textMatches = [], textMatch;
   while((textMatch = pattern.exec(text)) != null) {
     textMatches.push(textMatch[1]);
   }
   if(textMatches.length == 0) {
-    return null;
+    callback(null, null);
   }
   else {
-    return textMatches;
+    callback(null, textMatches);
   }
 }
 
+//Function to parse every line of the transcript
 var parseLine = function(line, callback) {
   var result = {};
+
+  //Finding the date if found in line
   var date = line.match(/\<\<(.*)\>\>/);
   result["date"] = date == null ? null : date[1];
+
+  //Finding the paragraph number if found in line
   var paragraphNumber = line.match(/\<(.*)\>[^\>]/);
   result["paragraph_number"] = paragraphNumber == null ? null : parseInt(paragraphNumber[1]);
+
+  //Checking if the line is a paragraph or not. To determine further markup parsing
   if(paragraphNumber != null) {
 
-    var nameRegex = /[^\[]\[\[([^\[\]]*)\]\][^\]]/
-    result["name"] = singleRegexMatch(line, nameRegex);
-
+    //Defining the regexes for finding the markup :D
+    var nameRegex = /[^\[]\[\[([^\[\]]*)\]\][^\]]/;
     var mentionedNameRegex = /\[\[\[([^\[\]]*)\]\]\]/g;
-    result["mentioned_names"] = multipleRegexMatch(line, mentionedNameRegex);
-
     var importantSpeechRegex = /\\\\(.*)\\\\/g;
-    result["important_speeches"] = multipleRegexMatch(line, importantSpeechRegex);
-
     var referencedArticleRegex = /\|\|([0-9,\s]*)\|\|/g;
-    var referencedArticles = [];
-    if((referencedArticles = multipleRegexMatch(line, referencedArticleRegex)) == null) {
-      referencedArticles = [];
-    }
-    var referencedArticlesNumbers = [];
-    for(var i = 0; i < referencedArticles.length; i++) {
-      var temp = referencedArticles[i].split(',');
-      for(var j = 0; j < temp.length; j++) {
-        temp[j] = parseInt(temp[j].replace( /^\D+/g, ''));
-      }
-      referencedArticlesNumbers = referencedArticlesNumbers.concat(temp);
-    }
-    result["referenced_articles"] = referencedArticles.length == 0 ? null : referencedArticlesNumbers;
-
     var contentCategoryRegex = /\#\#(.*)\#\#/;
-    result["content_category"] = singleRegexMatch(line, contentCategoryRegex);
-
     var foreignConstitutionsRegex = /\#\/(.*)\#\//;
-    var foreignConstitutions;
-    if((foreignConstitutions = singleRegexMatch(line, foreignConstitutionsRegex)) != null) {
-      foreignConstitutions = foreignConstitutions.split(',');
-      for(var i = 0; i < foreignConstitutions.length; i++) {
-        foreignConstitutions[i] = foreignConstitutions[i].trim();
+
+    /*
+    Callback function to define behaviour on matching completion for speaker name,
+    mentioned names, important speeches, referenced articles, content cateogries
+    and foreign constitution references.
+    */
+    var onFinishRegexMatching = function(err, results) {
+      if(err) {
+        console.log("Error in Regex Matching!")
       }
-    }
-    result["foreign_consitutions"] = foreignConstitutions;
+      else {
+        result["name"] = results[0];
+        result["mentioned_names"] = results[1];
+        result["important_speeches"] = results[2];
+
+        //Converting list of referenced articles to an array of article numbers.
+        var referencedArticles = results[3];
+        if(referencedArticles == null) {
+          result["referenced_articles"] = null;
+        }
+        else {
+          var referencedArticlesNumbers = [];
+          for(var i = 0; i < referencedArticles.length; i++) {
+            var temp = referencedArticles[i].split(',');
+            for(var j = 0; j < temp.length; j++) {
+              temp[j] = parseInt(temp[j].replace( /^\D+/g, ''));
+            }
+            referencedArticlesNumbers = referencedArticlesNumbers.concat(temp);
+          }
+          result["referenced_articles"] = referencedArticlesNumbers;
+        }
+
+        result["content_category"] = results[4];
+
+        //Converting list of foreing constitutions referred to an array of foreign constitutions
+        var foreignConstitutions = results[5];
+        if(foreignConstitutions == null) {
+          result["foreign_consitutions"] = null;
+        }
+        else {
+          foreignConstitutions = foreignConstitutions.split(',');
+          for(var i = 0; i < foreignConstitutions.length; i++) {
+            foreignConstitutions[i] = foreignConstitutions[i].trim();
+          }
+          result["foreign_consitutions"] = foreignConstitutions;
+        }
+        //Returning the result object containing all markup info for paragraph
+        callback(null, result);
+      }
+    };
+
+    //Performing the regex matching in parallel
+    async.parallel([singleRegexMatch.bind(null, line, nameRegex),
+    multipleRegexMatch.bind(null, line, mentionedNameRegex),
+    multipleRegexMatch.bind(null, line, importantSpeechRegex),
+    multipleRegexMatch.bind(null, line, referencedArticleRegex),
+    singleRegexMatch.bind(null, line, contentCategoryRegex),
+    singleRegexMatch.bind(null, line, foreignConstitutionsRegex)], onFinishRegexMatching);
   }
-  callback(null, result);
+  else {
+    callback(null, result);
+  }
 };
 
+//Function to read the transcript file and split to line by line
 var readSourceFile = function(err, result) {
   var lines = result.toString().split('\n');
   async.map(lines, parseLine, finishParsingLines);
 };
 
+//Function to get all the transcript files in the src/ directory
 var getSourceFiles = function(err, files) {
   for(var i = 0; i < files.length; i++) {
     if(path.extname(files[i]) == '.txt') {
