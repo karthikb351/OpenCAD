@@ -37,6 +37,29 @@ var finishParsingLines = function(err, results) {
   });
 };
 
+var singleRegexMatch = function(text, pattern) {
+  var textMatch = text.match(pattern);
+  if(textMatch == null) {
+    return null;
+  }
+  else {
+    return textMatch[1];
+  }
+}
+
+var multipleRegexMatch = function(text, pattern) {
+  var textMatches = [], textMatch;
+  while((textMatch = pattern.exec(text)) != null) {
+    textMatches.push(textMatch[1]);
+  }
+  if(textMatches.length == 0) {
+    return null;
+  }
+  else {
+    return textMatches;
+  }
+}
+
 var parseLine = function(line, callback) {
   var result = {};
   var date = line.match(/\<\<(.*)\>\>/);
@@ -44,27 +67,20 @@ var parseLine = function(line, callback) {
   var paragraphNumber = line.match(/\<(.*)\>[^\>]/);
   result["paragraph_number"] = paragraphNumber == null ? null : parseInt(paragraphNumber[1]);
   if(paragraphNumber != null) {
-    var name = line.match(/[^\[]\[\[([^\[\]]*)\]\][^\]]/);
-    result["name"] = name == null ? null : name[1];
-    var mentionedNames = [], mentionedName;
+
+    var nameRegex = /[^\[]\[\[([^\[\]]*)\]\][^\]]/
+    result["name"] = singleRegexMatch(line, nameRegex);
+
     var mentionedNameRegex = /\[\[\[([^\[\]]*)\]\]\]/g;
-    while((mentionedName = mentionedNameRegex.exec(line)) != null) {
-      mentionedNames.push(mentionedName[1]);
-    }
-    result["mentioned_names"] = mentionedNames.length == 0 ? null : mentionedNames;
+    result["mentioned_names"] = multipleRegexMatch(line, mentionedNameRegex);
 
-
-    var importantSpeeches = [], importantSpeech;
     var importantSpeechRegex = /\\\\(.*)\\\\/g;
-    while((importantSpeech = importantSpeechRegex.exec(line)) != null) {
-      importantSpeeches.push(importantSpeech[1]);
-    }
-    result["important_speeches"] = importantSpeeches.length == 0 ? null : importantSpeeches;
+    result["important_speeches"] = multipleRegexMatch(line, importantSpeechRegex);
 
-    var referencedArticles = [], referencedArticle;
     var referencedArticleRegex = /\|\|([0-9,\s]*)\|\|/g;
-    while((referencedArticle = referencedArticleRegex.exec(line)) != null) {
-      referencedArticles.push(referencedArticle[1]);
+    var referencedArticles = [];
+    if((referencedArticles = multipleRegexMatch(line, referencedArticleRegex)) == null) {
+      referencedArticles = [];
     }
     var referencedArticlesNumbers = [];
     for(var i = 0; i < referencedArticles.length; i++) {
@@ -76,12 +92,11 @@ var parseLine = function(line, callback) {
     }
     result["referenced_articles"] = referencedArticles.length == 0 ? null : referencedArticlesNumbers;
 
-    var contentCategory = line.match(/\#\#(.*)\#\#/);
-    result["content_category"] = contentCategory == null ? null : contentCategory[1];
+    var contentCategoryRegex = /\#\#(.*)\#\#/;
+    result["content_category"] = singleRegexMatch(line, contentCategoryRegex);
 
-    var foreignConstitutions = line.match(/\#\/(.*)\#\//);
-    result["foreign_consitutions"] = foreignConstitutions == null ? null : foreignConstitutions[1];
-
+    var foreignConstitutionsRegex = /\#\/(.*)\#\//;
+    result["foreign_consitutions"] = singleRegexMatch(line, foreignConstitutionsRegex);
   }
   callback(null, result);
 };
