@@ -2,7 +2,7 @@
    "paragraphs":[
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"1",
+         "paragraph_number":1,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -12,7 +12,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"2",
+         "paragraph_number":2,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -22,7 +22,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"3",
+         "paragraph_number":3,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -32,7 +32,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"4",
+         "paragraph_number":4,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -42,7 +42,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"5",
+         "paragraph_number":5,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -52,7 +52,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"6",
+         "paragraph_number":6,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -62,7 +62,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"7",
+         "paragraph_number":7,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -72,7 +72,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"8",
+         "paragraph_number":8,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -82,19 +82,21 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"9",
+         "paragraph_number":9,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":[
             "Mr. President"
          ],
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fundamental rights, justiciable, non-justiciable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"10",
+         "paragraph_number":10,
          "name":"Sri L. Krishnaswami Bharathi",
          "mentioned_names":[
             "Pandit Hirday Nath Kunzru"
@@ -106,7 +108,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"11",
+         "paragraph_number":11,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -116,7 +118,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"12",
+         "paragraph_number":12,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":null,
          "important_speeches":null,
@@ -126,27 +128,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"13",
+         "paragraph_number":13,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fundamental rights, justiciable, non-justiciable, union powers, provinces",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"14",
+         "paragraph_number":14,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fundamental rights, justiciable, non-justiciable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"15",
+         "paragraph_number":15,
          "name":"Mr. F. R. Anthony",
          "mentioned_names":null,
          "important_speeches":null,
@@ -156,7 +162,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"16",
+         "paragraph_number":16,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":[
             "Sir, Mr. Anthony"
@@ -168,17 +174,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"17",
+         "paragraph_number":17,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fundamental rights, justiciable, non-justiciable, restrictions on fundamental rights, directive principles of state policy, enforceable, non-enforceable, justiciable, non- justiciable, freedom of speech, right to assemble, right to form associations",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"18",
+         "paragraph_number":18,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -188,7 +196,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"19",
+         "paragraph_number":19,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -198,17 +206,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"20",
+         "paragraph_number":20,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"federalism, federal, immigration, immigrants, freedom of movement, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"21",
+         "paragraph_number":21,
          "name":"Dr. B. R. Ambedkar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -218,7 +228,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"22",
+         "paragraph_number":22,
          "name":"Dr. B. Pattabhi Sitaramayya",
          "mentioned_names":null,
          "important_speeches":null,
@@ -228,7 +238,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"23",
+         "paragraph_number":23,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":[
             "Dr. Ambedkar's"
@@ -240,7 +250,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"24",
+         "paragraph_number":24,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -250,7 +260,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"25",
+         "paragraph_number":25,
          "name":"The Hon'ble Pandit Hirday Nath Kunzru",
          "mentioned_names":[
             "Dr. Ambedkar"
@@ -262,20 +272,22 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"26",
+         "paragraph_number":26,
          "name":null,
          "mentioned_names":[
             "Dr. Ambedkar's",
             "Dr. Ambedkar"
          ],
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"freedom of movement, immigration, migration, justiciable, non- justiciable, restrictions, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"27",
+         "paragraph_number":27,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -285,7 +297,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"28",
+         "paragraph_number":28,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
@@ -295,27 +307,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"29",
+         "paragraph_number":29,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"30",
+         "paragraph_number":30,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"31",
+         "paragraph_number":31,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -325,7 +341,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"32",
+         "paragraph_number":32,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
@@ -335,20 +351,25 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"33",
+         "paragraph_number":33,
          "name":"Mr. Somnath Lahiri",
          "mentioned_names":[
             "Pandit Kunzru",
             "Pandit Kunzru's"
          ],
          "important_speeches":null,
-         "referenced_articles":"19, 31, 41, 356",
+         "referenced_articles":[
+            19,
+            31,
+            41,
+            356
+         ],
          "content_category":"fundamental rights, directive principles of state policy, justiciablity, justiciable, non-justiciable, social rights, right to property, right to work, right to employment, nationalization, land reform, land rights, emergency, freedom of expression, freedom of press, freedom of speech",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"34",
+         "paragraph_number":34,
          "name":null,
          "mentioned_names":[
             "Sardar Patel",
@@ -361,13 +382,17 @@
             "Rajaji"
          ],
          "important_speeches":null,
-         "referenced_articles":"19, 21, 22",
+         "referenced_articles":[
+            19,
+            21,
+            22
+         ],
          "content_category":"fundamental rights, detention, trial, sedition, civil liberties, autocracy, due process, freedom of speech, freedom of expression, police",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"35",
+         "paragraph_number":35,
          "name":"Dr. B. Pattabhi Sitaramayya",
          "mentioned_names":null,
          "important_speeches":null,
@@ -377,7 +402,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"36",
+         "paragraph_number":36,
          "name":"Mr. Somnath Lahiri",
          "mentioned_names":null,
          "important_speeches":null,
@@ -387,27 +412,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"37",
+         "paragraph_number":37,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"freedom of speech, freedom of expression, opposition, fundamental rights, civic rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"38",
+         "paragraph_number":38,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":" fundamental rights, restrictions on fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"39",
+         "paragraph_number":39,
          "name":"Mr. R. K. Sidhwa",
          "mentioned_names":[
             "Mr. Lahiri's",
@@ -421,7 +450,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"40",
+         "paragraph_number":40,
          "name":null,
          "mentioned_names":[
             "Dr. Kunzru",
@@ -434,7 +463,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"41",
+         "paragraph_number":41,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -444,7 +473,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"42",
+         "paragraph_number":42,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -454,7 +483,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"43",
+         "paragraph_number":43,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -464,19 +493,21 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"44",
+         "paragraph_number":44,
          "name":null,
          "mentioned_names":[
             "Dr. Kunzru"
          ],
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fundamental rights, freedom of movement, right to property, occupation, business",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"45",
+         "paragraph_number":45,
          "name":null,
          "mentioned_names":[
             "Dr. Kunzru",
@@ -486,13 +517,15 @@
             "Mr. Lahiri"
          ],
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"fudamental rights, right to reside, freedom of movement, justiciaiblity, justiciable, non-justiciable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"46",
+         "paragraph_number":46,
          "name":"Prof. N. G. Ranga",
          "mentioned_names":null,
          "important_speeches":null,
@@ -502,7 +535,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"47",
+         "paragraph_number":47,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -512,7 +545,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"48",
+         "paragraph_number":48,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -522,7 +555,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"49",
+         "paragraph_number":49,
          "name":"Prof. N. G. Ranga",
          "mentioned_names":null,
          "important_speeches":null,
@@ -532,7 +565,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"50",
+         "paragraph_number":50,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -542,17 +575,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"51",
+         "paragraph_number":51,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"19",
+         "referenced_articles":[
+            19
+         ],
          "content_category":"freedom of expression, freedom of press, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"52",
+         "paragraph_number":52,
          "name":null,
          "mentioned_names":[
             "Rajaji"
@@ -564,7 +599,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"53",
+         "paragraph_number":53,
          "name":null,
          "mentioned_names":[
             "Dr. Kunzru",
@@ -572,13 +607,15 @@
             "Mr. Lahiri"
          ],
          "important_speeches":null,
-         "referenced_articles":"32",
+         "referenced_articles":[
+            32
+         ],
          "content_category":"fundamental rights, constitutional remedies, violation of fundamental rights, liberalism, communism",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"54",
+         "paragraph_number":54,
          "name":"Dr. B. Pattabhi Sitaramayya",
          "mentioned_names":null,
          "important_speeches":null,
@@ -588,7 +625,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"55",
+         "paragraph_number":55,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -598,7 +635,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"56",
+         "paragraph_number":56,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -608,7 +645,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"57",
+         "paragraph_number":57,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -618,7 +655,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"58",
+         "paragraph_number":58,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -628,17 +665,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"59",
+         "paragraph_number":59,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition, name of the union, union",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"60",
+         "paragraph_number":60,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -648,7 +687,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"61",
+         "paragraph_number":61,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Kamath"
@@ -660,7 +699,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"62",
+         "paragraph_number":62,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -670,7 +709,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"63",
+         "paragraph_number":63,
          "name":"Some Hon'ble Members",
          "mentioned_names":null,
          "important_speeches":null,
@@ -680,7 +719,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"64",
+         "paragraph_number":64,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -690,7 +729,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"65",
+         "paragraph_number":65,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Munshi",
@@ -703,7 +742,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"66",
+         "paragraph_number":66,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -713,7 +752,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"67",
+         "paragraph_number":67,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -723,7 +762,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"68",
+         "paragraph_number":68,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":[
             "Mr. Kamath"
@@ -735,7 +774,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"69",
+         "paragraph_number":69,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Munshi"
@@ -747,17 +786,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"70",
+         "paragraph_number":70,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"71",
+         "paragraph_number":71,
          "name":"An Hon'ble Member",
          "mentioned_names":null,
          "important_speeches":null,
@@ -767,7 +808,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"72",
+         "paragraph_number":72,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -777,7 +818,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"73",
+         "paragraph_number":73,
          "name":null,
          "mentioned_names":[
             "Mr. Munshi"
@@ -789,7 +830,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"74",
+         "paragraph_number":74,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -799,17 +840,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"75",
+         "paragraph_number":75,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition, name of the union, union",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"76",
+         "paragraph_number":76,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -819,7 +862,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"77",
+         "paragraph_number":77,
          "name":"Sri L. Krishnaswami Bharthi",
          "mentioned_names":[
             "Mr. Munshi"
@@ -831,37 +874,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"78",
+         "paragraph_number":78,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition, name of the union, union",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"79",
+         "paragraph_number":79,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition, name of the union, union",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"80",
+         "paragraph_number":80,
          "name":"Sri K. Santhanam",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":" state, state meaning, state definition, name of the union, union",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"81",
+         "paragraph_number":81,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Munshi's"
@@ -873,17 +922,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"82",
+         "paragraph_number":82,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":" definition of law, meaning of law, scope of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"83",
+         "paragraph_number":83,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -893,27 +944,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"84",
+         "paragraph_number":84,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":" definition of law, meaning of law, scope of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"85",
+         "paragraph_number":85,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":" definition of law, meaning of law, scope of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"86",
+         "paragraph_number":86,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -923,7 +978,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"87",
+         "paragraph_number":87,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
@@ -933,7 +988,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"88",
+         "paragraph_number":88,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -943,7 +998,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"89",
+         "paragraph_number":89,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Kamath"
@@ -955,7 +1010,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"90",
+         "paragraph_number":90,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":[
             "Mr. President"
@@ -967,7 +1022,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"91",
+         "paragraph_number":91,
          "name":"Mr. President",
          "mentioned_names":[
             "Dr. Syama Prasad Mookherjee"
@@ -979,7 +1034,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"92",
+         "paragraph_number":92,
          "name":"Dr. Syama Prasad Mookherjee",
          "mentioned_names":[
             "Mr. Munshi's"
@@ -991,7 +1046,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"93",
+         "paragraph_number":93,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Chaudhury"
@@ -1003,17 +1058,21 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"94",
+         "paragraph_number":94,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"29|| Here the words used are \"State educational institutions\". In sub-clause (3) (a) it is laid down-- \"All minorities whether based on religion, community or language shall be free in any Unit to establish and administer educational institutions of their choice.\"  ##minorities, education, school, discrimination, freedom of religion## ||30|| Here we have the words \"educational institutions\". And in sub-clause (3) (b) the word 'schools' is used-- \"The State shall not, while providing State aid to schools, discriminate against schools under the management of minorities whether based on religion, community or language.\"        ##minorities, education, school, discrimination, freedom of religion## ||29",
+         "referenced_articles":[
+            29,
+            30,
+            29
+         ],
          "content_category":"education, school##In these clauses dealing with the fundamental rights, we find the word 'school' and also the words 'educational institutions' being used at different places, leading one to think that some distinction is intended. I would like it to be clearly stated that by school we mean any educational institution. I am referring to clause 18 sub-clause (2) where it is stated-- \"No minority whether based on religion, community or language shall be discriminated against in regard to the admission into State educational institutions, nor shall any religious instruction be compulsorily imposed on them.\"    ##minorities, education, school, discrimination, freedom of religion## ||29|| Here the words used are \"State educational institutions\". In sub-clause (3) (a) it is laid down-- \"All minorities whether based on religion, community or language shall be free in any Unit to establish and administer educational institutions of their choice.\"  ##minorities, education, school, discrimination, freedom of religion## ||30|| Here we have the words \"educational institutions\". And in sub-clause (3) (b) the word 'schools' is used-- \"The State shall not, while providing State aid to schools, discriminate against schools under the management of minorities whether based on religion, community or language.\"        ##minorities, education, school, discrimination, freedom of religion",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"95",
+         "paragraph_number":95,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1023,7 +1082,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"96",
+         "paragraph_number":96,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1033,7 +1092,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"97",
+         "paragraph_number":97,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1043,87 +1102,104 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"98",
+         "paragraph_number":98,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, religion, caste, dalits, fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"99",
+         "paragraph_number":99,
          "name":"Dr. S. C. Banerjee",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"100",
+         "paragraph_number":100,
          "name":"Mr. K. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"101",
+         "paragraph_number":101,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"102",
+         "paragraph_number":102,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"103",
+         "paragraph_number":103,
          "name":"Mr. Dhirendra Nath Datta",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"104",
+         "paragraph_number":104,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17,23",
+         "referenced_articles":[
+            17,
+            23
+         ],
          "content_category":null,
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"105",
+         "paragraph_number":105,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"106",
+         "paragraph_number":106,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1133,7 +1209,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"107",
+         "paragraph_number":107,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1143,7 +1219,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"108",
+         "paragraph_number":108,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1153,7 +1229,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"109",
+         "paragraph_number":109,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1163,7 +1239,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"110",
+         "paragraph_number":110,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1173,7 +1249,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"111",
+         "paragraph_number":111,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1183,7 +1259,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"112",
+         "paragraph_number":112,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1193,7 +1269,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"113",
+         "paragraph_number":113,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1203,7 +1279,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"114",
+         "paragraph_number":114,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1213,7 +1289,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"115",
+         "paragraph_number":115,
          "name":"Mr. N. V. Gadgil",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1223,7 +1299,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"116",
+         "paragraph_number":116,
          "name":"Sri K Santhanam",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1233,7 +1309,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"117",
+         "paragraph_number":117,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1243,7 +1319,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"118",
+         "paragraph_number":118,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1253,37 +1329,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"119",
+         "paragraph_number":119,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"120",
+         "paragraph_number":120,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"121",
+         "paragraph_number":121,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"122",
+         "paragraph_number":122,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1293,29 +1375,33 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"123",
+         "paragraph_number":123,
          "name":"Sri K. Santhanam",
          "mentioned_names":[
             "Sardar Patel"
          ],
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"124",
+         "paragraph_number":124,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"125",
+         "paragraph_number":125,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1325,7 +1411,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"126",
+         "paragraph_number":126,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1335,7 +1421,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"127",
+         "paragraph_number":127,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Santhanam's"
@@ -1347,17 +1433,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"128",
+         "paragraph_number":128,
          "name":"The Hon'ble Rev. J. J. M. Nichols-Roy",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law, federalism, federal, centre-state relations",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"129",
+         "paragraph_number":129,
          "name":"Mr. B. Das",
          "mentioned_names":[
             "Hon'ble Rev. Nichols-Roy",
@@ -1365,47 +1453,55 @@
             "Mr. Santhanam"
          ],
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, application of law, federalism, federal, centre-state relations",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"130",
+         "paragraph_number":130,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":[
             "Mr. Santhanam's"
          ],
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, justiciability, justiciable, non-justiciable, enforceable, violation of fundamental rights, delegated legislation",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"131",
+         "paragraph_number":131,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Santhanam's"
          ],
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, violation of fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"132",
+         "paragraph_number":132,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"13",
+         "referenced_articles":[
+            13
+         ],
          "content_category":"fundamental rights, violation of fundamental rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"133",
+         "paragraph_number":133,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1415,7 +1511,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"134",
+         "paragraph_number":134,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1425,7 +1521,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"135",
+         "paragraph_number":135,
          "name":null,
          "mentioned_names":[
             "Mr. Munshi"
@@ -1437,37 +1533,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"136",
+         "paragraph_number":136,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"11",
+         "referenced_articles":[
+            11
+         ],
          "content_category":"citizenship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"137",
+         "paragraph_number":137,
          "name":"Mr. Promatha Ranjan Thakur",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship, naturalization",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"138",
+         "paragraph_number":138,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship, naturalization",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"139",
+         "paragraph_number":139,
          "name":"Mr. B. Das",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1477,7 +1579,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"140",
+         "paragraph_number":140,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1487,7 +1589,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"141",
+         "paragraph_number":141,
          "name":null,
          "mentioned_names":[
             "Mr. Sidhwa"
@@ -1499,7 +1601,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"142",
+         "paragraph_number":142,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1509,51 +1611,59 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"143",
+         "paragraph_number":143,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Das"
          ],
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"144",
+         "paragraph_number":144,
          "name":null,
          "mentioned_names":[
             "Mr. Das"
          ],
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"145",
+         "paragraph_number":145,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship, foreigners, diplomats",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"146",
+         "paragraph_number":146,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"5",
+         "referenced_articles":[
+            5
+         ],
          "content_category":"citizenship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"147",
+         "paragraph_number":147,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1563,7 +1673,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"148",
+         "paragraph_number":148,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1573,7 +1683,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"149",
+         "paragraph_number":149,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":[
             "Mr. Munshi"
@@ -1585,7 +1695,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"150",
+         "paragraph_number":150,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1595,7 +1705,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"151",
+         "paragraph_number":151,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1605,7 +1715,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"152",
+         "paragraph_number":152,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1615,7 +1725,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"153",
+         "paragraph_number":153,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1625,7 +1735,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"154",
+         "paragraph_number":154,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1635,7 +1745,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"155",
+         "paragraph_number":155,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1645,7 +1755,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"156",
+         "paragraph_number":156,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1655,7 +1765,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"157",
+         "paragraph_number":157,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1665,7 +1775,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"158",
+         "paragraph_number":158,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1675,7 +1785,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"159",
+         "paragraph_number":159,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1685,7 +1795,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"160",
+         "paragraph_number":160,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1695,7 +1805,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"161",
+         "paragraph_number":161,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1705,7 +1815,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"162",
+         "paragraph_number":162,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":[
             "Mr. Masani"
@@ -1717,7 +1827,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"163",
+         "paragraph_number":163,
          "name":"Shri R. V. Dhulekar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1727,7 +1837,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"164",
+         "paragraph_number":164,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1737,7 +1847,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"165",
+         "paragraph_number":165,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1747,7 +1857,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"166",
+         "paragraph_number":166,
          "name":"Mr. R. K. Sidhwa",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1757,7 +1867,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"167",
+         "paragraph_number":167,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1767,7 +1877,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"168",
+         "paragraph_number":168,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1777,7 +1887,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"169",
+         "paragraph_number":169,
          "name":"Mr. Jagat Narain Lal",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1787,7 +1897,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"170",
+         "paragraph_number":170,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1797,7 +1907,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"171",
+         "paragraph_number":171,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1807,7 +1917,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"172",
+         "paragraph_number":172,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1817,7 +1927,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"173",
+         "paragraph_number":173,
          "name":null,
          "mentioned_names":[
             "Mr. Ananthasayanam Ayyangar"
@@ -1829,7 +1939,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"174",
+         "paragraph_number":174,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1839,7 +1949,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"175",
+         "paragraph_number":175,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1849,7 +1959,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"176",
+         "paragraph_number":176,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1859,7 +1969,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"177",
+         "paragraph_number":177,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1869,7 +1979,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"178",
+         "paragraph_number":178,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1879,7 +1989,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"179",
+         "paragraph_number":179,
          "name":"The Hon'ble Sri C. Rajagopalachariar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1889,7 +1999,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"180",
+         "paragraph_number":180,
          "name":"The Hon'ble Dr. Kailas Nath Katju",
          "mentioned_names":[
             "Sir Alladi Krishnaswami Ayyar"
@@ -1901,7 +2011,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"181",
+         "paragraph_number":181,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":[
             "Dr. Katju"
@@ -1913,7 +2023,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"182",
+         "paragraph_number":182,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1923,7 +2033,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"183",
+         "paragraph_number":183,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -1933,7 +2043,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"184",
+         "paragraph_number":184,
          "name":"The Hon'ble Sri C. Rajagopalachariar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1943,7 +2053,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"185",
+         "paragraph_number":185,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1953,7 +2063,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"186",
+         "paragraph_number":186,
          "name":"Srijut Rohini Kumar Chaudhuri",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1963,7 +2073,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"187",
+         "paragraph_number":187,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1973,7 +2083,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"187",
+         "paragraph_number":187,
          "name":"Several Hon'ble Members",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1983,7 +2093,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"188",
+         "paragraph_number":188,
          "name":"The Hon'ble Sri C. Rajagopalachariar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -1993,7 +2103,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"189",
+         "paragraph_number":189,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2003,7 +2113,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"190",
+         "paragraph_number":190,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2013,7 +2123,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"191",
+         "paragraph_number":191,
          "name":"Diwan Bahadur Sir Alladi Krishnaswami Ayyar",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2023,7 +2133,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"192",
+         "paragraph_number":192,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2033,7 +2143,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"193",
+         "paragraph_number":193,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2043,7 +2153,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"194",
+         "paragraph_number":194,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2053,7 +2163,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"195",
+         "paragraph_number":195,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2063,7 +2173,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"196",
+         "paragraph_number":196,
          "name":"Shri R. V. Dhulekar",
          "mentioned_names":[
             "Sir B. L. Mitter",
@@ -2077,7 +2187,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"197",
+         "paragraph_number":197,
          "name":"The Hon'ble Pandit Jawaharlal Nehru",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2087,7 +2197,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"198",
+         "paragraph_number":198,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2097,7 +2207,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"199",
+         "paragraph_number":199,
          "name":"Dr. B. Pattabhi Sitaramayya",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2107,7 +2217,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"200",
+         "paragraph_number":200,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2117,37 +2227,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"201",
+         "paragraph_number":201,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, restaurants, hotels, parks, public funds, wells, roads, tanks, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"202",
+         "paragraph_number":202,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"203",
+         "paragraph_number":203,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure, public entertainment, state funds, discriminate",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"204",
+         "paragraph_number":204,
          "name":"The Hon'ble Shri Purushottamdas Tandon",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2157,7 +2273,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"205",
+         "paragraph_number":205,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2167,69 +2283,81 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"206",
+         "paragraph_number":206,
          "name":"Shri Mahavir Tyagi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"207",
+         "paragraph_number":207,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"208",
+         "paragraph_number":208,
          "name":"Shri Mahavir Tyagi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"209",
+         "paragraph_number":209,
          "name":"Mr. R. K Sidhwa",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"210",
+         "paragraph_number":210,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":[
             "Mr. President"
          ],
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"211",
+         "paragraph_number":211,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors, state funds, public funds",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"212",
+         "paragraph_number":212,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2239,37 +2367,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"213",
+         "paragraph_number":213,
          "name":"Mr. P. S. Deshmukh",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"214",
+         "paragraph_number":214,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, hotels, parks, theatres, private actors, justiciable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"215",
+         "paragraph_number":215,
          "name":"Mr. Somnath Lahiri",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex, political creed",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"216",
+         "paragraph_number":216,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2279,7 +2413,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"217",
+         "paragraph_number":217,
          "name":"Mr. Somnath Lahiri",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2289,79 +2423,93 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"218",
+         "paragraph_number":218,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, religion, sex, creed, freethinker, rationalist, hindu, muslim, sikh",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"219",
+         "paragraph_number":219,
          "name":null,
          "mentioned_names":[
             "Mr. Lahiri's"
          ],
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, creed, sedition, insurgency, violence",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"220",
+         "paragraph_number":220,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, race, caste, skin colour",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"221",
+         "paragraph_number":221,
          "name":"An Hon'ble Member",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, skin colour",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"222",
+         "paragraph_number":222,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, creed, sex, skin colour",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"223",
+         "paragraph_number":223,
          "name":"Srijut Rohini Kumar Chaudhuri",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, sex, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"224",
+         "paragraph_number":224,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"225",
+         "paragraph_number":225,
          "name":"Mr. Dhirendra Nath Datta",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2371,37 +2519,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"226",
+         "paragraph_number":226,
          "name":"Sri D. Govinda Doss",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, religion, roads, schools, temples, places of worship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"227",
+         "paragraph_number":227,
          "name":"Sri V. C. Kesava Rao",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"228",
+         "paragraph_number":228,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship, untouchability, untouchables, harijans, dalits, education, educational insitutions",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"229",
+         "paragraph_number":229,
          "name":"Mr. President",
          "mentioned_names":[
             "Shri P. Kakkan",
@@ -2415,87 +2569,104 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"230",
+         "paragraph_number":230,
          "name":"Shri Ajit Prasad Jain",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, roads, educational institutions, education, hospital",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"231",
+         "paragraph_number":231,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, caste, state funds, state aid",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"232",
+         "paragraph_number":232,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, state funds, state aided",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"233",
+         "paragraph_number":233,
          "name":"Mr. R. R. Diwakar",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, education, educational institutions, schools, colleges",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"234",
+         "paragraph_number":234,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15, 30",
+         "referenced_articles":[
+            15,
+            30
+         ],
          "content_category":"##fundamental rights, discrimination, discriminate, equality, education, educational institutions, schools, colleges, minority rights, cultural rights",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"235",
+         "paragraph_number":235,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, public transport",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"236",
+         "paragraph_number":236,
          "name":"Srijut Rohini Kumar Chaudhuri",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, dalits, harijans, untouchables",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"237",
+         "paragraph_number":237,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, harijans, untouchables, caste",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"238",
+         "paragraph_number":238,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2505,7 +2676,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"239",
+         "paragraph_number":239,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2515,7 +2686,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"240",
+         "paragraph_number":240,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2525,7 +2696,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"241",
+         "paragraph_number":241,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -2535,27 +2706,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"242",
+         "paragraph_number":242,
          "name":"Mr. K. M. Munshi",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, discriminate, schools",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"243",
+         "paragraph_number":243,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discriminate, discrimination, equality, harijans, untouchables, caste",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"244",
+         "paragraph_number":244,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -2565,7 +2740,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"245",
+         "paragraph_number":245,
          "name":"Mr. R. R. Diwakar",
          "mentioned_names":[
             "Shri Munshi"
@@ -2577,37 +2752,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"246",
+         "paragraph_number":246,
          "name":"Sri M. Ananthasayanam Ayyangar",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, tanks, wells, water supply",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"247",
+         "paragraph_number":247,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, discriminate, medical insitutions",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"248",
+         "paragraph_number":248,
          "name":"Mr. R. K. Sidhwa",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"249",
+         "paragraph_number":249,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2617,19 +2798,21 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"250",
+         "paragraph_number":250,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":[
             "Mr. Somnath Lahiri"
          ],
          "important_speeches":null,
-         "referenced_articles":"12",
+         "referenced_articles":[
+            12
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, political creed, race, religion, sex, skin colour, education, school, college, educational institutions",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"251",
+         "paragraph_number":251,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -2639,59 +2822,69 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"252",
+         "paragraph_number":252,
          "name":null,
          "mentioned_names":[
             "Srijut Rohini Kumar Chaudhury"
          ],
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"253",
+         "paragraph_number":253,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"254",
+         "paragraph_number":254,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"255",
+         "paragraph_number":255,
          "name":"Srijut Rohini Kumar Chaudhury",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"256",
+         "paragraph_number":256,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"257",
+         "paragraph_number":257,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2701,17 +2894,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"258",
+         "paragraph_number":258,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"259",
+         "paragraph_number":259,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2721,17 +2916,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"260",
+         "paragraph_number":260,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"261",
+         "paragraph_number":261,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2741,7 +2938,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"262",
+         "paragraph_number":262,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2751,47 +2948,55 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"263",
+         "paragraph_number":263,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, hotels",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"264",
+         "paragraph_number":264,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"265",
+         "paragraph_number":265,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, hotels",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"266",
+         "paragraph_number":266,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, state funds, public funds",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"267",
+         "paragraph_number":267,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2801,47 +3006,55 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"268",
+         "paragraph_number":268,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, state funds, public funds",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"269",
+         "paragraph_number":269,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, political creed",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"270",
+         "paragraph_number":270,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, caste, creed",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"271",
+         "paragraph_number":271,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, equality, discriminate, religion, creed",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"272",
+         "paragraph_number":272,
          "name":"Mr. President",
          "mentioned_names":[
             "Mr. Lahiri"
@@ -2853,27 +3066,31 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"273",
+         "paragraph_number":273,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"274",
+         "paragraph_number":274,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, schools, hostels, temples, places of worship",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"275",
+         "paragraph_number":275,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2883,37 +3100,43 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"276",
+         "paragraph_number":276,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, educational institution, hospital, dispensary",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"277",
+         "paragraph_number":277,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, equality, discrimination, discriminate",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"278",
+         "paragraph_number":278,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"15",
+         "referenced_articles":[
+            15
+         ],
          "content_category":"fundamental rights, discrimination, discriminate, equality, public spaces, entertainment, temple",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"279",
+         "paragraph_number":279,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -2923,77 +3146,91 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"280",
+         "paragraph_number":280,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"281",
+         "paragraph_number":281,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"282",
+         "paragraph_number":282,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"283",
+         "paragraph_number":283,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"284",
+         "paragraph_number":284,
          "name":"Sri S. Nagappa",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"285",
+         "paragraph_number":285,
          "name":"Sri P. Kunhiraman",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"286",
+         "paragraph_number":286,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"287",
+         "paragraph_number":287,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3003,53 +3240,61 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"288",
+         "paragraph_number":288,
          "name":"The Hon'ble Sardar Vallabhbhai Patel",
          "mentioned_names":[
             "Mr. Kamath"
          ],
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"289",
+         "paragraph_number":289,
          "name":null,
          "mentioned_names":[
             "Mr. Nagappa"
          ],
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"290",
+         "paragraph_number":290,
          "name":null,
          "mentioned_names":[
             "Mr. Kunhiraman"
          ],
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"291",
+         "paragraph_number":291,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"292",
+         "paragraph_number":292,
          "name":"Mr. H. V. Kamath",
          "mentioned_names":[
             "Hon'ble Sardar Patel"
@@ -3061,17 +3306,19 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"293",
+         "paragraph_number":293,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
-         "referenced_articles":"17",
+         "referenced_articles":[
+            17
+         ],
          "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
          "foreign_consitutions":null
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"294",
+         "paragraph_number":294,
          "name":"Sri P. Kunhiraman",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3081,7 +3328,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"295",
+         "paragraph_number":295,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3091,7 +3338,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"296",
+         "paragraph_number":296,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3101,7 +3348,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"297",
+         "paragraph_number":297,
          "name":"Shri Mahavir Tyagi",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3111,7 +3358,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"298",
+         "paragraph_number":298,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3121,7 +3368,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"299",
+         "paragraph_number":299,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -3131,7 +3378,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"300",
+         "paragraph_number":300,
          "name":"Rai Bahadur Syamanandan Sahaya",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3141,7 +3388,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"301",
+         "paragraph_number":301,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3151,7 +3398,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"302",
+         "paragraph_number":302,
          "name":null,
          "mentioned_names":null,
          "important_speeches":null,
@@ -3161,7 +3408,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"303",
+         "paragraph_number":303,
          "name":"Several Hon'ble Members",
          "mentioned_names":null,
          "important_speeches":null,
@@ -3171,7 +3418,7 @@
       },
       {
          "date":"Tuesday, the 29th April, 1947",
-         "paragraph_number":"304",
+         "paragraph_number":304,
          "name":"Mr. President",
          "mentioned_names":null,
          "important_speeches":null,

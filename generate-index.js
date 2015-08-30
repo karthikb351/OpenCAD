@@ -42,7 +42,7 @@ var parseLine = function(line, callback) {
   var date = line.match(/\<\<(.*)\>\>/);
   result["date"] = date == null ? null : date[1];
   var paragraphNumber = line.match(/\<(.*)\>[^\>]/);
-  result["paragraph_number"] = paragraphNumber == null ? null : paragraphNumber[1];
+  result["paragraph_number"] = paragraphNumber == null ? null : parseInt(paragraphNumber[1]);
   if(paragraphNumber != null) {
     var name = line.match(/[^\[]\[\[([^\[\]]*)\]\][^\]]/);
     result["name"] = name == null ? null : name[1];
@@ -61,8 +61,20 @@ var parseLine = function(line, callback) {
     }
     result["important_speeches"] = importantSpeeches.length == 0 ? null : importantSpeeches;
 
-    var referencedArticles = line.match(/\|\|(.*)\|\|/);
-    result["referenced_articles"] = referencedArticles == null ? null : referencedArticles[1];
+    var referencedArticles = [], referencedArticle;
+    var referencedArticleRegex = /\|\|([0-9,\s]*)\|\|/g;
+    while((referencedArticle = referencedArticleRegex.exec(line)) != null) {
+      referencedArticles.push(referencedArticle[1]);
+    }
+    var referencedArticlesNumbers = [];
+    for(var i = 0; i < referencedArticles.length; i++) {
+      var temp = referencedArticles[i].split(',');
+      for(var j = 0; j < temp.length; j++) {
+        temp[j] = parseInt(temp[j].replace( /^\D+/g, ''));
+      }
+      referencedArticlesNumbers = referencedArticlesNumbers.concat(temp);
+    }
+    result["referenced_articles"] = referencedArticles.length == 0 ? null : referencedArticlesNumbers;
 
     var contentCategory = line.match(/\#\#(.*)\#\#/);
     result["content_category"] = contentCategory == null ? null : contentCategory[1];
