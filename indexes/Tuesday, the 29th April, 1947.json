@@ -459,7 +459,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"fundamental rights, directive principles of state policy, economic rights, justiciablity, justiciable, non- justiciable",
-         "foreign_consitutions":"germany"
+         "foreign_consitutions":[
+            "germany"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -469,7 +471,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":null,
-         "foreign_consitutions":"Germany"
+         "foreign_consitutions":[
+            "Germany"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -479,7 +483,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"economic rights, directive principles of state policy, justiciablity, justiciable, non-justiciable",
-         "foreign_consitutions":"germany"
+         "foreign_consitutions":[
+            "germany"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -489,7 +495,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":null,
-         "foreign_consitutions":"south africa"
+         "foreign_consitutions":[
+            "south africa"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1669,7 +1677,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship",
-         "foreign_consitutions":"united states of america"
+         "foreign_consitutions":[
+            "united states of america"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1741,7 +1751,10 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship",
-         "foreign_consitutions":"united states of america, britain"
+         "foreign_consitutions":[
+            "united states of america",
+            "britain"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1761,7 +1774,10 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship, civic rights, political rights",
-         "foreign_consitutions":"united states of america, britain"
+         "foreign_consitutions":[
+            "united states of america",
+            "britain"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1781,7 +1797,10 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship, discrimination, race",
-         "foreign_consitutions":"united states of america, south Africa"
+         "foreign_consitutions":[
+            "united states of america",
+            "south Africa"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1823,7 +1842,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"fundamental rights, citizenship, discrimination, human rights, political rights, civic rights",
-         "foreign_consitutions":"united states of americal"
+         "foreign_consitutions":[
+            "united states of americal"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1853,7 +1874,10 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship, race",
-         "foreign_consitutions":"united states of america, britain"
+         "foreign_consitutions":[
+            "united states of america",
+            "britain"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1893,7 +1917,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship",
-         "foreign_consitutions":"republic of ireland"
+         "foreign_consitutions":[
+            "republic of ireland"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1903,7 +1929,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship",
-         "foreign_consitutions":"united states of america"
+         "foreign_consitutions":[
+            "united states of america"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1913,7 +1941,9 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship",
-         "foreign_consitutions":"united states of america"
+         "foreign_consitutions":[
+            "united states of america"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
@@ -1923,7 +1953,17 @@
          "important_speeches":null,
          "referenced_articles":null,
          "content_category":"citizenship## #/Britain#/ The definition says:-- (1) The following persons shall be deemed to be natural born British subjects, namely:- (a) Any person born within His Majesty's dominion and allegiance; and (b) Any person born out of His Majesty's dominions whose father was, at the time of that person's birth, a British subject, and who fulfills any of the following conditions, that is to say, if either, (i) his father was born within His Majesty's allegiance; or (ii) his father was a person to whom a certificate of naturalisation had been granted; or (iii) his father had become a British subject by reason of any annexation of territory; or (iv) his father was at the time of that person's birth in the service of the crown; or (v) his birth was registered at a British consulate within one year or in special circumstances, etc. (c) Any person born on board a British ship whether in foreign territorial waters or not.  ##citizenship",
-         "foreign_consitutions":"Britain#/ The definition says:-- (1) The following persons shall be deemed to be natural born British subjects, namely:- (a) Any person born within His Majesty's dominion and allegiance; and (b) Any person born out of His Majesty's dominions whose father was, at the time of that person's birth, a British subject, and who fulfills any of the following conditions, that is to say, if either, (i) his father was born within His Majesty's allegiance; or (ii) his father was a person to whom a certificate of naturalisation had been granted; or (iii) his father had become a British subject by reason of any annexation of territory; or (iv) his father was at the time of that person's birth in the service of the crown; or (v) his birth was registered at a British consulate within one year or in special circumstances, etc. (c) Any person born on board a British ship whether in foreign territorial waters or not.  ##citizenship## #/Britain"
+         "foreign_consitutions":[
+            "Britain#/ The definition says:-- (1) The following persons shall be deemed to be natural born British subjects",
+            "namely:- (a) Any person born within His Majesty's dominion and allegiance; and (b) Any person born out of His Majesty's dominions whose father was",
+            "at the time of that person's birth",
+            "a British subject",
+            "and who fulfills any of the following conditions",
+            "that is to say",
+            "if either",
+            "(i) his father was born within His Majesty's allegiance; or (ii) his father was a person to whom a certificate of naturalisation had been granted; or (iii) his father had become a British subject by reason of any annexation of territory; or (iv) his father was at the time of that person's birth in the service of the crown; or (v) his birth was registered at a British consulate within one year or in special circumstances",
+            "etc. (c) Any person born on board a British ship whether in foreign territorial waters or not.  ##citizenship## #/Britain"
+         ]
       },
       {
          "date":"Tuesday, the 29th April, 1947",
