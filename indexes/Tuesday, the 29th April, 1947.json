@@ -17,7 +17,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, minority rights",
+         "content_category":[
+            "fundamental rights, minority rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -47,7 +49,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights",
+         "content_category":[
+            "fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -57,7 +61,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, justiciable, non-justiciable",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -67,7 +73,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, justiciable, non-justiciable",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -91,7 +99,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fundamental rights, justiciable, non-justiciable",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -135,7 +145,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fundamental rights, justiciable, non-justiciable, union powers, provinces",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable, union powers, provinces"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -147,7 +159,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fundamental rights, justiciable, non-justiciable",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -181,7 +195,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fundamental rights, justiciable, non-justiciable, restrictions on fundamental rights, directive principles of state policy, enforceable, non-enforceable, justiciable, non- justiciable, freedom of speech, right to assemble, right to form associations",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable, restrictions on fundamental rights, directive principles of state policy, enforceable, non-enforceable, justiciable, non- justiciable, freedom of speech, right to assemble, right to form associations"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -191,7 +207,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, justiciable, non-justiciable, restrictions on fundamental rights",
+         "content_category":[
+            "fundamental rights, justiciable, non-justiciable, restrictions on fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -213,7 +231,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"federalism, federal, immigration, immigrants, freedom of movement, fundamental rights",
+         "content_category":[
+            "federalism, federal, immigration, immigrants, freedom of movement, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -267,7 +287,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"reasonable restrictions, minority groups, tribes, fundamental rights",
+         "content_category":[
+            "reasonable restrictions, minority groups, tribes, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -282,7 +304,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"freedom of movement, immigration, migration, justiciable, non- justiciable, restrictions, fundamental rights",
+         "content_category":[
+            "freedom of movement, immigration, migration, justiciable, non- justiciable, restrictions, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -302,7 +326,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, directive principles of state policy, socialism, socialist, nationalization, industries, economic rights, justiciable, non-justiciable, justiciablity",
+         "content_category":[
+            "fundamental rights, directive principles of state policy, socialism, socialist, nationalization, industries, economic rights, justiciable, non-justiciable, justiciablity"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -314,7 +340,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -326,7 +354,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -364,7 +394,9 @@
             41,
             356
          ],
-         "content_category":"fundamental rights, directive principles of state policy, justiciablity, justiciable, non-justiciable, social rights, right to property, right to work, right to employment, nationalization, land reform, land rights, emergency, freedom of expression, freedom of press, freedom of speech",
+         "content_category":[
+            "fundamental rights, directive principles of state policy, justiciablity, justiciable, non-justiciable, social rights, right to property, right to work, right to employment, nationalization, land reform, land rights, emergency, freedom of expression, freedom of press, freedom of speech"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -387,7 +419,9 @@
             21,
             22
          ],
-         "content_category":"fundamental rights, detention, trial, sedition, civil liberties, autocracy, due process, freedom of speech, freedom of expression, police",
+         "content_category":[
+            "fundamental rights, detention, trial, sedition, civil liberties, autocracy, due process, freedom of speech, freedom of expression, police"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -419,7 +453,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"freedom of speech, freedom of expression, opposition, fundamental rights, civic rights",
+         "content_category":[
+            "freedom of speech, freedom of expression, opposition, fundamental rights, civic rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -431,7 +467,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":" fundamental rights, restrictions on fundamental rights",
+         "content_category":[
+            " fundamental rights, restrictions on fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -445,7 +483,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, directive principles of state policy, economic rights",
+         "content_category":[
+            "fundamental rights, directive principles of state policy, economic rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -458,7 +498,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, directive principles of state policy, economic rights, justiciablity, justiciable, non- justiciable",
+         "content_category":[
+            "fundamental rights, directive principles of state policy, economic rights, justiciablity, justiciable, non- justiciable"
+         ],
          "foreign_consitutions":[
             "germany"
          ]
@@ -482,7 +524,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"economic rights, directive principles of state policy, justiciablity, justiciable, non-justiciable",
+         "content_category":[
+            "economic rights, directive principles of state policy, justiciablity, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":[
             "germany"
          ]
@@ -510,7 +554,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fundamental rights, freedom of movement, right to property, occupation, business",
+         "content_category":[
+            "fundamental rights, freedom of movement, right to property, occupation, business"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -528,7 +574,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"fudamental rights, right to reside, freedom of movement, justiciaiblity, justiciable, non-justiciable",
+         "content_category":[
+            "fudamental rights, right to reside, freedom of movement, justiciaiblity, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -578,7 +626,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, police, restrictions on fundamental rights, liberalism, communism, totalitarianism, nazism, europe, democratic",
+         "content_category":[
+            "fundamental rights, police, restrictions on fundamental rights, liberalism, communism, totalitarianism, nazism, europe, democratic"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -590,7 +640,9 @@
          "referenced_articles":[
             19
          ],
-         "content_category":"freedom of expression, freedom of press, fundamental rights",
+         "content_category":[
+            "freedom of expression, freedom of press, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -602,7 +654,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights",
+         "content_category":[
+            "fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -618,7 +672,9 @@
          "referenced_articles":[
             32
          ],
-         "content_category":"fundamental rights, constitutional remedies, violation of fundamental rights, liberalism, communism",
+         "content_category":[
+            "fundamental rights, constitutional remedies, violation of fundamental rights, liberalism, communism"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -648,7 +704,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, enforceable, enforceability, justiciability, justiciable, non-justiciable",
+         "content_category":[
+            "fundamental rights, enforceable, enforceability, justiciability, justiciable, non-justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -680,7 +738,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition, name of the union, union",
+         "content_category":[
+            " state, state meaning, state definition, name of the union, union"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -801,7 +861,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition",
+         "content_category":[
+            " state, state meaning, state definition"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -855,7 +917,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition, name of the union, union",
+         "content_category":[
+            " state, state meaning, state definition, name of the union, union"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -889,7 +953,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition, name of the union, union",
+         "content_category":[
+            " state, state meaning, state definition, name of the union, union"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -901,7 +967,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition, name of the union, union",
+         "content_category":[
+            " state, state meaning, state definition, name of the union, union"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -913,7 +981,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":" state, state meaning, state definition, name of the union, union",
+         "content_category":[
+            " state, state meaning, state definition, name of the union, union"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -937,7 +1007,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":" definition of law, meaning of law, scope of law",
+         "content_category":[
+            " definition of law, meaning of law, scope of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -959,7 +1031,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":" definition of law, meaning of law, scope of law",
+         "content_category":[
+            " definition of law, meaning of law, scope of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -971,7 +1045,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":" definition of law, meaning of law, scope of law",
+         "content_category":[
+            " definition of law, meaning of law, scope of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1075,7 +1151,12 @@
             30,
             29
          ],
-         "content_category":"education, school##In these clauses dealing with the fundamental rights, we find the word 'school' and also the words 'educational institutions' being used at different places, leading one to think that some distinction is intended. I would like it to be clearly stated that by school we mean any educational institution. I am referring to clause 18 sub-clause (2) where it is stated-- \"No minority whether based on religion, community or language shall be discriminated against in regard to the admission into State educational institutions, nor shall any religious instruction be compulsorily imposed on them.\"    ##minorities, education, school, discrimination, freedom of religion## ||29|| Here the words used are \"State educational institutions\". In sub-clause (3) (a) it is laid down-- \"All minorities whether based on religion, community or language shall be free in any Unit to establish and administer educational institutions of their choice.\"  ##minorities, education, school, discrimination, freedom of religion## ||30|| Here we have the words \"educational institutions\". And in sub-clause (3) (b) the word 'schools' is used-- \"The State shall not, while providing State aid to schools, discriminate against schools under the management of minorities whether based on religion, community or language.\"        ##minorities, education, school, discrimination, freedom of religion",
+         "content_category":[
+            "education, school",
+            "minorities, education, school, discrimination, freedom of religion",
+            "minorities, education, school, discrimination, freedom of religion",
+            "minorities, education, school, discrimination, freedom of religion"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1085,7 +1166,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"minorities, education, school, educational institution",
+         "content_category":[
+            "minorities, education, school, educational institution"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1095,7 +1178,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"education, school, primary education, educational institution",
+         "content_category":[
+            "education, school, primary education, educational institution"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1105,7 +1190,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"education, school",
+         "content_category":[
+            "education, school"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1117,7 +1204,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, religion, caste, dalits, fundamental rights",
+         "content_category":[
+            "untouchability, religion, caste, dalits, fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1129,7 +1218,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1141,7 +1232,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1153,7 +1246,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1165,7 +1260,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1177,7 +1274,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1202,7 +1301,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"untouchability, caste, dalits, fundamental rights, discrimination",
+         "content_category":[
+            "untouchability, caste, dalits, fundamental rights, discrimination"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1344,7 +1445,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law",
+         "content_category":[
+            "fundamental rights, application of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1356,7 +1459,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law",
+         "content_category":[
+            "fundamental rights, application of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1368,7 +1473,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law",
+         "content_category":[
+            "fundamental rights, application of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1392,7 +1499,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law",
+         "content_category":[
+            "fundamental rights, application of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1404,7 +1513,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law",
+         "content_category":[
+            "fundamental rights, application of law"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1448,7 +1559,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law, federalism, federal, centre-state relations",
+         "content_category":[
+            "fundamental rights, application of law, federalism, federal, centre-state relations"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1464,7 +1577,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, application of law, federalism, federal, centre-state relations",
+         "content_category":[
+            "fundamental rights, application of law, federalism, federal, centre-state relations"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1478,7 +1593,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, justiciability, justiciable, non-justiciable, enforceable, violation of fundamental rights, delegated legislation",
+         "content_category":[
+            "fundamental rights, justiciability, justiciable, non-justiciable, enforceable, violation of fundamental rights, delegated legislation"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1492,7 +1609,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, violation of fundamental rights",
+         "content_category":[
+            "fundamental rights, violation of fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1504,7 +1623,9 @@
          "referenced_articles":[
             13
          ],
-         "content_category":"fundamental rights, violation of fundamental rights",
+         "content_category":[
+            "fundamental rights, violation of fundamental rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1524,7 +1645,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1548,7 +1671,9 @@
          "referenced_articles":[
             11
          ],
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1560,7 +1685,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1572,7 +1699,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1582,7 +1711,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, fundamental rights, political equality",
+         "content_category":[
+            "citizenship, fundamental rights, political equality"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1604,7 +1735,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, citizenship, aliens",
+         "content_category":[
+            "fundamental rights, citizenship, aliens"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1628,7 +1761,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1642,7 +1777,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1654,7 +1791,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship, foreigners, diplomats",
+         "content_category":[
+            "citizenship, foreigners, diplomats"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1666,7 +1805,9 @@
          "referenced_articles":[
             5
          ],
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1676,7 +1817,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "united states of america"
          ]
@@ -1700,7 +1843,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization, diplomats## #/united states of america, britain/",
+         "content_category":[
+            "citizenship, naturalization, diplomats"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1710,7 +1855,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization## #/britain, united states of america, Germany, italy, france",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1720,7 +1867,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1730,7 +1879,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship## #/united states of america",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1750,7 +1901,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "united states of america",
             "britain"
@@ -1763,7 +1916,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1773,7 +1928,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, civic rights, political rights",
+         "content_category":[
+            "citizenship, civic rights, political rights"
+         ],
          "foreign_consitutions":[
             "united states of america",
             "britain"
@@ -1786,7 +1943,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1796,7 +1955,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, discrimination, race",
+         "content_category":[
+            "citizenship, discrimination, race"
+         ],
          "foreign_consitutions":[
             "united states of america",
             "south Africa"
@@ -1809,7 +1970,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1819,7 +1982,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, nationality, double citizenship",
+         "content_category":[
+            "citizenship, nationality, double citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1829,7 +1994,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, discrimination, fundamental rights, political rights",
+         "content_category":[
+            "citizenship, discrimination, fundamental rights, political rights"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1841,7 +2008,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"fundamental rights, citizenship, discrimination, human rights, political rights, civic rights",
+         "content_category":[
+            "fundamental rights, citizenship, discrimination, human rights, political rights, civic rights"
+         ],
          "foreign_consitutions":[
             "united states of americal"
          ]
@@ -1853,7 +2022,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1873,7 +2044,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, race",
+         "content_category":[
+            "citizenship, race"
+         ],
          "foreign_consitutions":[
             "united states of america",
             "britain"
@@ -1886,7 +2059,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1896,7 +2071,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1906,7 +2083,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1916,7 +2095,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "republic of ireland"
          ]
@@ -1928,7 +2109,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "united states of america"
          ]
@@ -1940,7 +2123,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "united states of america"
          ]
@@ -1952,7 +2137,10 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship## #/Britain#/ The definition says:-- (1) The following persons shall be deemed to be natural born British subjects, namely:- (a) Any person born within His Majesty's dominion and allegiance; and (b) Any person born out of His Majesty's dominions whose father was, at the time of that person's birth, a British subject, and who fulfills any of the following conditions, that is to say, if either, (i) his father was born within His Majesty's allegiance; or (ii) his father was a person to whom a certificate of naturalisation had been granted; or (iii) his father had become a British subject by reason of any annexation of territory; or (iv) his father was at the time of that person's birth in the service of the crown; or (v) his birth was registered at a British consulate within one year or in special circumstances, etc. (c) Any person born on board a British ship whether in foreign territorial waters or not.  ##citizenship",
+         "content_category":[
+            "citizenship",
+            "citizenship"
+         ],
          "foreign_consitutions":[
             "Britain#/ The definition says:-- (1) The following persons shall be deemed to be natural born British subjects",
             "namely:- (a) Any person born within His Majesty's dominion and allegiance; and (b) Any person born out of His Majesty's dominions whose father was",
@@ -1974,7 +2162,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1984,7 +2174,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -1994,7 +2186,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2004,7 +2198,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, nationality",
+         "content_category":[
+            "citizenship, nationality"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2014,7 +2210,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, nationality",
+         "content_category":[
+            "citizenship, nationality"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2024,7 +2222,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, foreigners, double citizenship, nationality",
+         "content_category":[
+            "citizenship, foreigners, double citizenship, nationality"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2034,7 +2234,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, foreigner",
+         "content_category":[
+            "citizenship, foreigner"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2046,7 +2248,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2058,7 +2262,9 @@
          ],
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship, naturalization",
+         "content_category":[
+            "citizenship, naturalization"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2068,7 +2274,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2078,7 +2286,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2118,7 +2328,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"citizenship",
+         "content_category":[
+            "citizenship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2252,7 +2464,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"funny",
+         "content_category":[
+            "funny"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2262,7 +2476,9 @@
          "mentioned_names":null,
          "important_speeches":null,
          "referenced_articles":null,
-         "content_category":"funny",
+         "content_category":[
+            "funny"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2274,7 +2490,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, restaurants, hotels, parks, public funds, wells, roads, tanks, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
+         "content_category":[
+            "fundamental rights, restaurants, hotels, parks, public funds, wells, roads, tanks, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2286,7 +2504,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
+         "content_category":[
+            "fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2298,7 +2518,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure, public entertainment, state funds, discriminate",
+         "content_category":[
+            "fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure, public entertainment, state funds, discriminate"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2330,7 +2552,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure",
+         "content_category":[
+            "fundamental rights, discrimination, equality, religion, race, caste, sex, infrastructure, public infrastructure"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2342,7 +2566,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2354,7 +2580,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2366,7 +2594,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2380,7 +2610,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2392,7 +2624,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors, state funds, public funds",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, private actors, state funds, public funds"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2414,7 +2648,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2426,7 +2662,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, hotels, parks, theatres, private actors, justiciable",
+         "content_category":[
+            "fundamental rights, horizontal application of fundamental rights, discrimination, restaurants, discriminate, equality, religion, race, caste, sex, infrastructure, public infrastructure, hotels, parks, theatres, private actors, justiciable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2438,7 +2676,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex, political creed",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, religion, race, caste, sex, political creed"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2470,7 +2710,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, religion, sex, creed, freethinker, rationalist, hindu, muslim, sikh",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, religion, sex, creed, freethinker, rationalist, hindu, muslim, sikh"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2484,7 +2726,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, creed, sedition, insurgency, violence",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, creed, sedition, insurgency, violence"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2496,7 +2740,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, race, caste, skin colour",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, race, caste, skin colour"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2508,7 +2754,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, skin colour",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, skin colour"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2520,7 +2768,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, religion, race, caste, creed, sex, skin colour",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, religion, race, caste, creed, sex, skin colour"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2532,7 +2782,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, sex, dress",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, sex, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2544,7 +2796,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, dress",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2566,7 +2820,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, religion, roads, schools, temples, places of worship",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, religion, roads, schools, temples, places of worship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2578,7 +2834,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship",
+         "content_category":[
+            "fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2590,7 +2848,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship, untouchability, untouchables, harijans, dalits, education, educational insitutions",
+         "content_category":[
+            "fundamental rights, discrimination, equality, roads, schools, hostels, temples, places of worship, untouchability, untouchables, harijans, dalits, education, educational insitutions"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2616,7 +2876,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, roads, educational institutions, education, hospital",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, roads, educational institutions, education, hospital"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2628,7 +2890,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, caste, state funds, state aid",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, caste, state funds, state aid"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2640,7 +2904,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, state funds, state aided",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, language, equality, roads, educational institutions, education, hospital, religion, state funds, state aided"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2652,7 +2918,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, education, educational institutions, schools, colleges",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, education, educational institutions, schools, colleges"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2665,7 +2933,9 @@
             15,
             30
          ],
-         "content_category":"##fundamental rights, discrimination, discriminate, equality, education, educational institutions, schools, colleges, minority rights, cultural rights",
+         "content_category":[
+            ""
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2677,7 +2947,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, public transport",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, public transport"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2689,7 +2961,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, dalits, harijans, untouchables",
+         "content_category":[
+            "fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, dalits, harijans, untouchables"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2701,7 +2975,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, harijans, untouchables, caste",
+         "content_category":[
+            "fundamental rights, discriminate, discrimination, entertainment, equality, public spaces, temple, harijans, untouchables, caste"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2753,7 +3029,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, discriminate, schools",
+         "content_category":[
+            "fundamental rights, discrimination, equality, discriminate, schools"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2765,7 +3043,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discriminate, discrimination, equality, harijans, untouchables, caste",
+         "content_category":[
+            "fundamental rights, discriminate, discrimination, equality, harijans, untouchables, caste"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2799,7 +3079,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, tanks, wells, water supply",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, tanks, wells, water supply"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2811,7 +3093,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, discriminate, medical insitutions",
+         "content_category":[
+            "fundamental rights, discrimination, equality, discriminate, medical insitutions"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2823,7 +3107,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2847,7 +3133,9 @@
          "referenced_articles":[
             12
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, political creed, race, religion, sex, skin colour, education, school, college, educational institutions",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, political creed, race, religion, sex, skin colour, education, school, college, educational institutions"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2871,7 +3159,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, dress",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2883,7 +3173,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, dress",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2895,7 +3187,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, discriminate, dress",
+         "content_category":[
+            "fundamental rights, discrimination, equality, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2907,7 +3201,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2919,7 +3215,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, discriminate, dress",
+         "content_category":[
+            "fundamental rights, discrimination, equality, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2941,7 +3239,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2963,7 +3263,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -2995,7 +3297,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, hotels",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, hotels"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3007,7 +3311,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3019,7 +3325,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, hotels",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, hotels"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3031,7 +3339,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, state funds, public funds",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, state funds, public funds"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3053,7 +3363,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, state funds, public funds",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, state funds, public funds"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3065,7 +3377,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, political creed",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, political creed"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3077,7 +3391,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, caste, creed",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, caste, creed"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3089,7 +3405,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, equality, discriminate, religion, creed",
+         "content_category":[
+            "fundamental rights, discrimination, equality, discriminate, religion, creed"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3113,7 +3431,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate, dress",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate, dress"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3125,7 +3445,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, schools, hostels, temples, places of worship",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, schools, hostels, temples, places of worship"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3147,7 +3469,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, educational institution, hospital, dispensary",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, educational institution, hospital, dispensary"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3159,7 +3483,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, equality, discrimination, discriminate",
+         "content_category":[
+            "fundamental rights, equality, discrimination, discriminate"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3171,7 +3497,9 @@
          "referenced_articles":[
             15
          ],
-         "content_category":"fundamental rights, discrimination, discriminate, equality, public spaces, entertainment, temple",
+         "content_category":[
+            "fundamental rights, discrimination, discriminate, equality, public spaces, entertainment, temple"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3193,7 +3521,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3205,7 +3535,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3217,7 +3549,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3229,7 +3563,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3241,7 +3577,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3253,7 +3591,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3265,7 +3605,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3289,7 +3631,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, unapproachability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3303,7 +3647,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3317,7 +3663,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3329,7 +3677,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, punishable"
+         ],
          "foreign_consitutions":null
       },
       {
@@ -3353,7 +3703,9 @@
          "referenced_articles":[
             17
          ],
-         "content_category":"fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability",
+         "content_category":[
+            "fundamental rights, discrimination, equality, caste, untouchability, untouchables, dalits, harijans, disability"
+         ],
          "foreign_consitutions":null
       },
       {

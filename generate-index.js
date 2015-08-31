@@ -82,7 +82,7 @@ var parseLine = function(line, callback) {
     var mentionedNameRegex = /\[\[\[([^\[\]]*)\]\]\]/g;
     var importantSpeechRegex = /\\\\(.*)\\\\/g;
     var referencedArticleRegex = /\|\|([0-9,\s]*)\|\|/g;
-    var contentCategoryRegex = /\#\#(.*)\#\#/;
+    var contentCategoryRegex = /\#\#([^\#]*)\#\#/g;
     var foreignConstitutionsRegex = /\#\/(.*)\#\//;
 
     /*
@@ -116,8 +116,7 @@ var parseLine = function(line, callback) {
           result["referenced_articles"] = referencedArticlesNumbers;
         }
 
-        // if list, split. Else null
-        result["content_category"] = (results[4] ? results[4].split(/,[\s]+/) : null);
+        result["content_category"] = results[4];
 
         //Converting list of foreing constitutions referred to an array of foreign constitutions
         var foreignConstitutions = results[5];
@@ -141,7 +140,7 @@ var parseLine = function(line, callback) {
     multipleRegexMatch.bind(null, line, mentionedNameRegex),
     multipleRegexMatch.bind(null, line, importantSpeechRegex),
     multipleRegexMatch.bind(null, line, referencedArticleRegex),
-    singleRegexMatch.bind(null, line, contentCategoryRegex),
+    multipleRegexMatch.bind(null, line, contentCategoryRegex),
     singleRegexMatch.bind(null, line, foreignConstitutionsRegex)], onFinishRegexMatching);
   }
   else {
