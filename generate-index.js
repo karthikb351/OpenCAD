@@ -116,7 +116,21 @@ var parseLine = function(line, callback) {
           result["referenced_articles"] = referencedArticlesNumbers;
         }
 
-        result["content_category"] = results[4];
+        var contentCategories = results[4];
+        if(contentCategories == null) {
+          result["content_category"] = null;
+        }
+        else {
+          var completeContentCategories = [];
+          for (var i = 0; i < contentCategories.length; i++) {
+            var temp = contentCategories[i].split(',');
+            for(var j = 0; j < temp.length; j++) {
+              temp[j] = temp[j].trim();
+            }
+            completeContentCategories = completeContentCategories.concat(temp);
+          }
+          result["content_category"] = completeContentCategories;
+        }
 
         //Converting list of foreing constitutions referred to an array of foreign constitutions
         var foreignConstitutions = results[5];
