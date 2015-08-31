@@ -98,7 +98,7 @@ var parseLine = function(line, callback) {
     var importantSpeechRegex = /\\\\(.*)\\\\/g;
     var referencedArticleRegex = /\|\|([0-9,\s]*)\|\|/g;
     var contentCategoryRegex = /\#\#([^\#]*)\#\#/g;
-    var foreignConstitutionsRegex = /\#\/(.*)\#\//;
+    var foreignConstitutionsRegex = /\#\/([^\#\/]*)\#\//g;
 
     /*
     Callback function to define behaviour on matching completion for speaker name,
@@ -121,13 +121,12 @@ var parseLine = function(line, callback) {
         }
         else {
           var referencedArticlesNumbers = [];
-          for(var i = 0; i < referencedArticles.length; i++) {
-            var temp = referencedArticles[i].split(',');
-            for(var j = 0; j < temp.length; j++) {
-              temp[j] = parseInt(temp[j].replace( /^\D+/g, ''));
-            }
-            referencedArticlesNumbers = referencedArticlesNumbers.concat(temp);
-          }
+          referencedArticles.map(function(referencedArticle) {
+            var temp = referencedArticle.split(/\s*,\s*/);
+            referencedArticlesNumbers = referencedArticlesNumbers.concat(temp.map(function(num) {
+              return parseInt(num, 10);
+            }));
+          });
           result["referenced_articles"] = removeDuplicates(referencedArticlesNumbers);
         }
 
@@ -137,13 +136,9 @@ var parseLine = function(line, callback) {
         }
         else {
           var completeContentCategories = [];
-          for (var i = 0; i < contentCategories.length; i++) {
-            var temp = contentCategories[i].split(',');
-            for(var j = 0; j < temp.length; j++) {
-              temp[j] = temp[j].trim();
-            }
-            completeContentCategories = completeContentCategories.concat(temp);
-          }
+          contentCategories.map(function(contentCategory) {
+            completeContentCategories = completeContentCategories.concat(contentCategory.split(/\s*,\s*/));
+          });
           result["content_category"] = removeDuplicates(completeContentCategories);
         }
 
@@ -153,11 +148,11 @@ var parseLine = function(line, callback) {
           result["foreign_consitutions"] = null;
         }
         else {
-          foreignConstitutions = foreignConstitutions.split(',');
-          for(var i = 0; i < foreignConstitutions.length; i++) {
-            foreignConstitutions[i] = foreignConstitutions[i].trim();
-          }
-          result["foreign_consitutions"] = removeDuplicates(foreignConstitutions);
+          var completeForeignConstiutions = [];
+          foreignConstitutions.map(function(foreignConstitution) {
+            completeForeignConstiutions = completeForeignConstiutions.concat(foreignConstitution.split(/\s*,\s*/));
+          });
+          result["foreign_consitutions"] = removeDuplicates(completeForeignConstiutions);
         }
         //Returning the result object containing all markup info for paragraph
         callback(null, result);
@@ -170,7 +165,7 @@ var parseLine = function(line, callback) {
     multipleRegexMatch.bind(null, line, importantSpeechRegex),
     multipleRegexMatch.bind(null, line, referencedArticleRegex),
     multipleRegexMatch.bind(null, line, contentCategoryRegex),
-    singleRegexMatch.bind(null, line, foreignConstitutionsRegex)], onFinishRegexMatching);
+    multipleRegexMatch.bind(null, line, foreignConstitutionsRegex)], onFinishRegexMatching);
   }
   else {
     callback(null, result);
