@@ -62,6 +62,21 @@ var multipleRegexMatch = function(text, pattern, callback) {
   }
 }
 
+var removeDuplicates = function(arr) {
+  if(arr == null) {
+    return null;
+  }
+  var arrLength = arr.length;
+  var arrKeys = {};
+  var outputArr = [];
+  for(var i = 0; i < arrLength; i++) {
+    arrKeys[arr[i]] = 0;
+  }
+  for(var i in arrKeys) {
+    outputArr.push(i);
+  }
+  return outputArr;
+}
 //Function to parse every line of the transcript
 var parseLine = function(line, callback) {
   var result = {};
@@ -96,8 +111,8 @@ var parseLine = function(line, callback) {
       }
       else {
         result["name"] = results[0];
-        result["mentioned_names"] = results[1];
-        result["important_speeches"] = results[2];
+        result["mentioned_names"] = removeDuplicates(results[1]);
+        result["important_speeches"] = removeDuplicates(results[2]);
 
         //Converting list of referenced articles to an array of article numbers.
         var referencedArticles = results[3];
@@ -113,7 +128,7 @@ var parseLine = function(line, callback) {
             }
             referencedArticlesNumbers = referencedArticlesNumbers.concat(temp);
           }
-          result["referenced_articles"] = referencedArticlesNumbers;
+          result["referenced_articles"] = removeDuplicates(referencedArticlesNumbers);
         }
 
         var contentCategories = results[4];
@@ -129,7 +144,7 @@ var parseLine = function(line, callback) {
             }
             completeContentCategories = completeContentCategories.concat(temp);
           }
-          result["content_category"] = completeContentCategories;
+          result["content_category"] = removeDuplicates(completeContentCategories);
         }
 
         //Converting list of foreing constitutions referred to an array of foreign constitutions
@@ -142,7 +157,7 @@ var parseLine = function(line, callback) {
           for(var i = 0; i < foreignConstitutions.length; i++) {
             foreignConstitutions[i] = foreignConstitutions[i].trim();
           }
-          result["foreign_consitutions"] = foreignConstitutions;
+          result["foreign_consitutions"] = removeDuplicates(foreignConstitutions);
         }
         //Returning the result object containing all markup info for paragraph
         callback(null, result);
