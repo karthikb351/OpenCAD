@@ -73,10 +73,16 @@ var removeDuplicates = function(arr) {
     arrKeys[arr[i]] = 0;
   }
   for(var i in arrKeys) {
-    outputArr.push(i);
+    if(/^\d+$/.test(i)) {
+      outputArr.push(parseInt(i));
+    }
+    else {
+      outputArr.push(i);
+    }
   }
   return outputArr;
 }
+
 //Function to parse every line of the transcript
 var parseLine = function(line, callback) {
   var result = {};
