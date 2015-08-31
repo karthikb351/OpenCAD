@@ -116,7 +116,8 @@ var parseLine = function(line, callback) {
           result["referenced_articles"] = referencedArticlesNumbers;
         }
 
-        result["content_category"] = results[4].split(/,[\s]+/);
+        // if list, split. Else null
+        result["content_category"] = (results[4] ? results[4].split(/,[\s]+/) : null);
 
         //Converting list of foreing constitutions referred to an array of foreign constitutions
         var foreignConstitutions = results[5];
