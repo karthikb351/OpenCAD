@@ -2,6 +2,7 @@ var path = require('path');
 var fs = require('fs');
 var async = require('async');
 var jsonfile = require('jsonfile');
+var moment = require('moment');
 var sourceFilesPath = path.join(__dirname, 'src');
 
 var finishParsingLines = function(err, results) {
@@ -13,6 +14,12 @@ var finishParsingLines = function(err, results) {
       break;
     }
   }
+
+  var year = date.match(/[\d]{4}/g)[0];
+  var month = date.match(/January|February|March|April|May|June|July|August|September|October|November|December/g)[0];
+  var day = date.match(/[\d]{1,2}/g)[0];
+  date = moment(year+'-'+month+'-'+day, 'YYYY-MMM-DD').format('YYYY-MM-DD');
+
   var cleanedLines = [];
   for(var i = 0; i < results.length; i++) {
     if(results[i]["paragraph_number"] == null) {
