@@ -5,6 +5,65 @@ var jsonfile = require('jsonfile');
 var moment = require('moment');
 var sourceFilesPath = path.join(__dirname, 'src');
 
+//Reading tag index files if they exist
+var speakerNamesIndex = fs.existsSync(path.join(__dirname, 'indexes', 'speaker-names.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'speaker-names.json')) : {};
+var mentionedNamesIndex = fs.existsSync(path.join(__dirname, 'indexes', 'mentioned-names.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'mentioned-names.json')) : {};
+var importantSpeechesIndex = fs.existsSync(path.join(__dirname, 'indexes', 'important-speeches.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'important-speeches.json')) : {};
+var referencedArticlesIndex = fs.existsSync(path.join(__dirname, 'indexes', 'referenced-articles.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'referenced-articles.json')) : {};
+var contentCategoriesIndex = fs.existsSync(path.join(__dirname, 'indexes', 'content-category.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'content-category.json')) : {};
+var foreignConstitutionsIndex = fs.existsSync(path.join(__dirname, 'indexes', 'foreign-consitutions.json')) ? jsonfile.readFileSync(path.join(__dirname, 'indexes', 'foreign-consitutions.json')) : {};
+
+//Template function for updating the tag indexes
+var updateIndex = function(index, date, paragraphNumber, element) {
+  if(index.hasOwnProperty(element)) {
+    if(index[element].hasOwnProperty(date)) {
+      index[element][date].push(paragraphNumber);
+    }
+    else {
+      index[element][date] = [];
+      index[element][date].push(paragraphNumber);
+    }
+  }
+  else {
+    index[element] = {};
+    index[element][date] = [];
+    index[element][date].push(paragraphNumber);
+  }
+  return index;
+}
+
+//Updates tag indexes for the cleaned lines
+var updateTagIndexes = function(date, paragraphNumber, speakerName, mentionedNames, importantSpeeches, referencedArticles, contentCategory, foreignConstitutions) {
+
+  speakerNamesIndex = updateIndex(speakerNamesIndex, date, paragraphNumber, speakerName);
+
+  var mentionedNamesLength = mentionedNames ? mentionedNames.length : 0;
+  for(var i = 0; i < mentionedNamesLength; i++) {
+    mentionedNamesIndex = updateIndex(mentionedNamesIndex, date, paragraphNumber, mentionedNames[i]);
+  }
+
+  var importantSpeechesLength = importantSpeeches ? importantSpeeches.length : 0;
+  for(var i = 0; i < importantSpeechesLength; i++) {
+    importantSpeechesIndex = updateIndex(importantSpeechesIndex, date, paragraphNumber, importantSpeeches[i]);
+  }
+
+  var referencedArticlesLength = referencedArticles ? referencedArticles.length : 0;
+  for(var i = 0; i < referencedArticlesLength; i++) {
+    referencedArticlesIndex = updateIndex(referencedArticlesIndex, date, paragraphNumber, referencedArticles[i]);
+  }
+
+  var contentCategoryLength = contentCategory ? contentCategory.length : 0;
+  for(var i = 0; i < contentCategoryLength; i++) {
+    contentCategoriesIndex = updateIndex(contentCategoriesIndex, date, paragraphNumber, contentCategory[i]);
+  }
+
+  var foreignConstitutionsLength = foreignConstitutions ? foreignConstitutions.length : 0;
+  for(var i = 0; i < foreignConstitutionsLength; i++) {
+    foreignConstitutionsIndex = updateIndex(foreignConstitutionsIndex, date, paragraphNumber, foreignConstitutions[i]);
+  }
+};
+
+//Function that handles the end of parsing all lines in
 var finishParsingLines = function(err, results) {
   //Cleaning up the parsed lines to remove lines without paragraphs
   var date;
@@ -26,7 +85,8 @@ var finishParsingLines = function(err, results) {
       continue;
     }
     var line = results[i];
-    line["date"] = date;
+    line['date'] = date;
+    updateTagIndexes(line['date'], line['paragraph_number'], line['name'], line['mentioned_names'], line['important_speeches'], line['referenced_articles'], line['content_category'], line['foreign_consitutions']);
     cleanedLines.push(line);
   }
 
@@ -39,9 +99,7 @@ var finishParsingLines = function(err, results) {
   //Creating index file
   var indexPath = path.join(__dirname, 'indexes', date + '.json');
   var obj = {paragraphs: cleanedLines};
-  jsonfile.writeFile(indexPath, obj, function(err) {
-    console.log(err);
-  });
+  jsonfile.writeFileSync(indexPath, obj);
 };
 
 //Template function to find single regex matches
@@ -77,6 +135,9 @@ var removeDuplicates = function(arr) {
   var arrKeys = {};
   var outputArr = [];
   for(var i = 0; i < arrLength; i++) {
+    if(!(/^\d+$/.test(arr[i]))) {
+      arr[i] = arr[i].toLowerCase();
+    }
     arrKeys[arr[i]] = 0;
   }
   for(var i in arrKeys) {
@@ -198,6 +259,14 @@ var getSourceFiles = function(err, files) {
       fs.readFile(path.join(__dirname, 'src', files[i]), readSourceFile);
     }
   }
+
+  //Creating tag index files
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'speaker-names.json'), speakerNamesIndex);
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'mentioned-names.json'), mentionedNamesIndex);
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'important-speeches.json'), importantSpeechesIndex);
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'referenced-articles.json'), referencedArticlesIndex);
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'content-category.json'), contentCategoriesIndex);
+  jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'foreign-consitutions.json'), foreignConstitutionsIndex);
 };
 
 fs.readdir(sourceFilesPath, getSourceFiles);
