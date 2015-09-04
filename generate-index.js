@@ -134,6 +134,7 @@ var multipleRegexMatch = function(text, pattern) {
   }
 }
 
+//Function that removes duplicate elements in the tag arrays
 var removeDuplicates = function(arr) {
   if(arr == null) {
     return null;
@@ -246,14 +247,18 @@ var getSourceFiles = function(err, files) {
       fs.readFile(path.join(__dirname, 'src', files[i]), readSourceFile);
     }
   }
+};
 
-  //Creating tag index files
+//Function that creates the tag indexes json files
+var onExitTagIndexesWriter = function() {
+  //Creating tag index files when the script is about to end
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'speaker-names.json'), speakerNamesIndex);
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'mentioned-names.json'), mentionedNamesIndex);
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'important-speeches.json'), importantSpeechesIndex);
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'referenced-articles.json'), referencedArticlesIndex);
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'content-category.json'), contentCategoriesIndex);
   jsonfile.writeFileSync(path.join(__dirname, 'indexes', 'foreign-consitutions.json'), foreignConstitutionsIndex);
-};
+}
 
 fs.readdir(sourceFilesPath, getSourceFiles);
+process.on('exit', onExitTagIndexesWriter);
