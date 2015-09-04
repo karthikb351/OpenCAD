@@ -99,31 +99,38 @@ var finishParsingLines = function(err, results) {
   //Creating index file
   var indexPath = path.join(__dirname, 'indexes', date + '.json');
   var obj = {paragraphs: cleanedLines};
-  jsonfile.writeFileSync(indexPath, obj);
+  jsonfile.writeFile(indexPath, obj, function(err, result) {
+    if(err) {
+      console.log(err);
+    }
+    else {
+      console.log(indexPath + ' is created!');
+    }
+  });
 };
 
 //Template function to find single regex matches
 var singleRegexMatch = function(text, pattern, callback) {
   var textMatch = text.match(pattern);
   if(textMatch == null) {
-    callback(null, null);
+    return null;
   }
   else {
-    callback(null, textMatch[1]);
+    return textMatch[1];
   }
 }
 
 //Template function to find multiple regex matches
-var multipleRegexMatch = function(text, pattern, callback) {
+var multipleRegexMatch = function(text, pattern) {
   var textMatches = [], textMatch;
   while((textMatch = pattern.exec(text)) != null) {
     textMatches.push(textMatch[1]);
   }
   if(textMatches.length == 0) {
-    callback(null, null);
+    return null;
   }
   else {
-    callback(null, textMatches);
+    return textMatches;
   }
 }
 
@@ -174,72 +181,52 @@ var parseLine = function(line, callback) {
     var contentCategoryRegex = /\#\#([^\#]*)\#\#/g;
     var foreignConstitutionsRegex = /\#\/([^\#\/]*)\#\//g;
 
-    /*
-    Callback function to define behaviour on matching completion for speaker name,
-    mentioned names, important speeches, referenced articles, content cateogries
-    and foreign constitution references.
-    */
-    var onFinishRegexMatching = function(err, results) {
-      if(err) {
-        console.log("Error in Regex Matching!")
-      }
-      else {
-        result["name"] = results[0];
-        result["mentioned_names"] = removeDuplicates(results[1]);
-        result["important_speeches"] = removeDuplicates(results[2]);
+    result['name'] = singleRegexMatch(line, nameRegex);
+    result['mentioned_names'] = removeDuplicates(multipleRegexMatch(line, mentionedNameRegex));
+    result['important_speeches'] = removeDuplicates(multipleRegexMatch(line, importantSpeechRegex));
 
-        //Converting list of referenced articles to an array of article numbers.
-        var referencedArticles = results[3];
-        if(referencedArticles == null) {
-          result["referenced_articles"] = null;
-        }
-        else {
-          var referencedArticlesNumbers = [];
-          referencedArticles.map(function(referencedArticle) {
-            var temp = referencedArticle.split(/\s*,\s*/);
-            referencedArticlesNumbers = referencedArticlesNumbers.concat(temp.map(function(num) {
-              return parseInt(num, 10);
-            }));
-          });
-          result["referenced_articles"] = removeDuplicates(referencedArticlesNumbers);
-        }
+    //Converting list of referenced articles to an array of article numbers.
+    var referencedArticles = multipleRegexMatch(line, referencedArticleRegex);
+    if(referencedArticles == null) {
+      result['referenced_articles'] = null;
+    }
+    else {
+      var referencedArticlesNumbers = [];
+      referencedArticles.map(function(referencedArticle) {
+        var temp = referencedArticle.split(/\s*,\s*/);
+        referencedArticlesNumbers = referencedArticlesNumbers.concat(temp.map(function(num) {
+          return parseInt(num, 10);
+        }));
+      });
+      result['referenced_articles'] = removeDuplicates(referencedArticlesNumbers);
+    }
 
-        var contentCategories = results[4];
-        if(contentCategories == null) {
-          result["content_category"] = null;
-        }
-        else {
-          var completeContentCategories = [];
-          contentCategories.map(function(contentCategory) {
-            completeContentCategories = completeContentCategories.concat(contentCategory.split(/\s*,\s*/));
-          });
-          result["content_category"] = removeDuplicates(completeContentCategories);
-        }
+    //Converting list of content cateogries to an array of individual content categories
+    var contentCategories = multipleRegexMatch(line, contentCategoryRegex);
+    if(contentCategories == null) {
+      result['content_category'] = null;
+    }
+    else {
+      var completeContentCategories = [];
+      contentCategories.map(function(contentCategory) {
+        completeContentCategories = completeContentCategories.concat(contentCategory.split(/\s*,\s*/));
+      });
+      result['content_category'] = removeDuplicates(completeContentCategories);
+    }
 
-        //Converting list of foreing constitutions referred to an array of foreign constitutions
-        var foreignConstitutions = results[5];
-        if(foreignConstitutions == null) {
-          result["foreign_consitutions"] = null;
-        }
-        else {
-          var completeForeignConstiutions = [];
-          foreignConstitutions.map(function(foreignConstitution) {
-            completeForeignConstiutions = completeForeignConstiutions.concat(foreignConstitution.split(/\s*,\s*/));
-          });
-          result["foreign_consitutions"] = removeDuplicates(completeForeignConstiutions);
-        }
-        //Returning the result object containing all markup info for paragraph
-        callback(null, result);
-      }
-    };
-
-    //Performing the regex matching in parallel
-    async.parallel([singleRegexMatch.bind(null, line, nameRegex),
-    multipleRegexMatch.bind(null, line, mentionedNameRegex),
-    multipleRegexMatch.bind(null, line, importantSpeechRegex),
-    multipleRegexMatch.bind(null, line, referencedArticleRegex),
-    multipleRegexMatch.bind(null, line, contentCategoryRegex),
-    multipleRegexMatch.bind(null, line, foreignConstitutionsRegex)], onFinishRegexMatching);
+    //Converting list of foreing constitutions referred to an array of foreign constitutions
+    var foreignConstitutions = multipleRegexMatch(line, foreignConstitutionsRegex);
+    if(foreignConstitutions == null) {
+      result['foreign_consitutions'] = null;
+    }
+    else {
+      var completeForeignConstiutions = [];
+      foreignConstitutions.map(function(foreignConstitution) {
+        completeForeignConstiutions = completeForeignConstiutions.concat(foreignConstitution.split(/\s*,\s*/));
+      });
+      result['foreign_consitutions'] = removeDuplicates(completeForeignConstiutions);
+    }
+    callback(null, result);
   }
   else {
     callback(null, result);
