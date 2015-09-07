@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Generates indexes for the different markups from the transcript files",
   "scripts": {
-    "start": "node generate-index.js"
+    "start": "node generate-index.js",
+    "test": "node generate-index.js"
   },
   "author": "Kishore Narendran",
   "license": "ISC",
