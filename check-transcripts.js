@@ -87,6 +87,7 @@ var checkTranscriptLines = function(lines) {
         else if(commonBrackets.indexOf(stack[stack.length - 1]) != -1){
           errorFlag = true;
           result = {code: 1, message: 'Unmatched ' + stack[stack.length - 1] + ' somewhere near line ' + i};
+          return result;
         }
         else {
           stack.push(check['bracket']);
@@ -96,7 +97,7 @@ var checkTranscriptLines = function(lines) {
         if(check['bracket'] == '{{' && openingBrackets.indexOf(stack[stack.length - 1]) != -1) {
           errorFlag = true;
           result = {code: 1, message: 'Unmatched ' + stack[stack.length - 1] + ' somewhere near line ' + i};
-          break;
+          return result;
         }
         else {
           stack.push(check['bracket']);
@@ -109,17 +110,17 @@ var checkTranscriptLines = function(lines) {
         else {
           errorFlag = true;
           result = {code: 1, message: 'Unmatched ' + check['bracket'] + ' somewhere near line ' + i};
-          break;
+          return result;
         }
       }
       lastIndex = check.index + check.length;
     }
-    if(errorFlag) {
-      break;
-    }
   }
   if(!errorFlag && stack.length == 0) {
-    result = {code: 0, message: 'Transcript file is good!'}
+    result = {code: 0, message: 'Transcript file is good!'};
+  }
+  else {
+    result = {code: 1, message: 'Unknown error!'};
   }
   return result;
 };
