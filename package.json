@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Generates indexes for the different markups from the transcript files",
   "scripts": {
-    "start": "node generate-index.js"
+    "start": "node generate-index.js",
+    "test": "mocha check-transcripts.js"
   },
   "contributors": [
     {
@@ -25,6 +26,7 @@
     "chai": "^3.2.0",
     "data-driven": "^1.2.1",
     "jsonfile": "^2.2.1",
-    "moment": "^2.10.6"
+    "moment": "^2.10.6",
+    "mocha": "^2.3.1"
   }
 }
