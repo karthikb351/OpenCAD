@@ -127,29 +127,30 @@ var checkTranscriptLines = function(lines) {
   return result;
 };
 
-var getSourceFiles = function(err, files) {
+var getSourceFiles = function(files) {
   for(var i = 0; i < files.length; i++) {
     if(path.extname(files[i]) == '.txt') {
       var filePath = path.join(__dirname, 'src', files[i]);
-      fs.readFile(filePath, function(err, result) {
-        var lines = result.toString().split('\n');
-        inputFilesAsLines.push(lines);
-      });
+      var fileContent = fs.readFileSync(filePath);
+      var lines = fileContent.toString().split('\n');
+      inputFilesAsLines.push(lines);
     }
   }
-};
+}
 
-fs.readdir(sourceFilesPath, getSourceFiles);
+files = fs.readdirSync(sourceFilesPath);
+getSourceFiles(files);
 
 describe('verifySourceFiles', function() {
-    data_driven([inputFilesAsLines], function() {
+    data_driven(inputFilesAsLines, function() {
         it('should have an error code of 0', function(ctx) {
           var result = checkTranscriptLines(ctx);
           results.push(result);
-          assert.equal(0, result.code)
+          assert.equal(0, result.code, result.message);
         });
     });
 });
+
 
 process.on('exit', function() {
   console.log(results);
