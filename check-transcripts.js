@@ -130,7 +130,7 @@ var getSourceFiles = function(files) {
       var filePath = path.join(__dirname, 'src', files[i]);
       var fileContent = fs.readFileSync(filePath);
       var lines = fileContent.toString().split('\n');
-      inputFilesAsLines.push(lines);
+      inputFilesAsLines.push({"input": lines, "filePath": filePath});
     }
   }
 }
@@ -141,7 +141,8 @@ getSourceFiles(files);
 describe('verifySourceFiles', function() {
     data_driven(inputFilesAsLines, function() {
         it('should have an error code of 0', function(ctx) {
-          var result = checkTranscriptLines(ctx);
+          var result = checkTranscriptLines(ctx.input);
+          result.filePath = ctx.filePath;
           results.push(result);
           assert.equal(0, result.code, result.message);
         });
