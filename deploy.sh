@@ -9,7 +9,7 @@ mkdir out;
 node generate-index.js
 
 # copy over files to out folder
-cp public/* out/
+cp -r public/* out/
 cp -r src out/
 cp -r indexes out/
 # go to the out directory and create a *new* Git repo
