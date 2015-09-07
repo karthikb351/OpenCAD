@@ -1,3 +1,5 @@
+var assert = require('assert');
+var data_driven = require('data-driven')
 var fs = require('fs');
 var path = require('path');
 var jsonfile = require('jsonfile');
@@ -8,6 +10,7 @@ var closingBrackets = ['>>', '>', ']]', ']]]', '}}'];
 var commonBrackets = ['\\\\', '||', '##', '#/'];
 
 var results = [];
+var inputFilesAsLines = [];
 
 //Function to check what the nearest occuring bracket is from the index lastIndex in the line variable
 var checkNearestBracket = function(line, lastIndex) {
@@ -130,15 +133,23 @@ var getSourceFiles = function(err, files) {
       var filePath = path.join(__dirname, 'src', files[i]);
       fs.readFile(filePath, function(err, result) {
         var lines = result.toString().split('\n');
-        var result = checkTranscriptLines(lines);
-        result.file = filePath;
-        results.push(result);
+        inputFilesAsLines.push(lines);
       });
     }
   }
 };
 
 fs.readdir(sourceFilesPath, getSourceFiles);
+
+describe('verifySourceFiles', function() {
+    data_driven([inputFilesAsLines], function() {
+        it('should have an error code of 0', function(ctx) {
+          var result = checkTranscriptLines(ctx);
+          results.push(result);
+          assert.equal(0, result.code)
+        });
+    });
+});
 
 process.on('exit', function() {
   console.log(results);
