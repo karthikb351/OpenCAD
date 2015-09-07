@@ -121,35 +121,34 @@ var checkTranscriptLines = function(lines) {
   if(!errorFlag && stack.length == 0) {
     result = {code: 0, message: 'Transcript file is good!'}
   }
-  else {
-    result = {code: 1, message: 'Unknown error!'}
-  }
   return result;
 };
 
-var getSourceFiles = function(err, files) {
+var getSourceFiles = function(files) {
   for(var i = 0; i < files.length; i++) {
     if(path.extname(files[i]) == '.txt') {
       var filePath = path.join(__dirname, 'src', files[i]);
-      fs.readFile(filePath, function(err, result) {
-        var lines = result.toString().split('\n');
-        inputFilesAsLines.push(lines);
-      });
+      var fileContent = fs.readFileSync(filePath);
+      var lines = fileContent.toString().split('\n');
+      inputFilesAsLines.push({"input": lines, "filePath": filePath});
     }
   }
-};
+}
 
-fs.readdir(sourceFilesPath, getSourceFiles);
+files = fs.readdirSync(sourceFilesPath);
+getSourceFiles(files);
 
 describe('verifySourceFiles', function() {
-    data_driven([inputFilesAsLines], function() {
+    data_driven(inputFilesAsLines, function() {
         it('should have an error code of 0', function(ctx) {
-          var result = checkTranscriptLines(ctx);
+          var result = checkTranscriptLines(ctx.input);
+          result.filePath = ctx.filePath;
           results.push(result);
-          assert.equal(0, result.code)
+          assert.equal(0, result.code, result.message);
         });
     });
 });
+
 
 process.on('exit', function() {
   console.log(results);
