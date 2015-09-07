@@ -5,9 +5,13 @@ set -e # exit with nonzero exit code if anything fails
 rm -rf out || exit 0;
 mkdir out;
 
-# run our compile script, discussed above
+# generate required files
 node generate-index.js
 
+# copy over files to out folder
+cp public/* out/
+cp -r src out/
+cp -r indexes out/
 # go to the out directory and create a *new* Git repo
 cd out
 git init
