@@ -121,9 +121,6 @@ var checkTranscriptLines = function(lines) {
   if(!errorFlag && stack.length == 0) {
     result = {code: 0, message: 'Transcript file is good!'}
   }
-  else {
-    result = {code: 1, message: 'Unknown error!'}
-  }
   return result;
 };
 
