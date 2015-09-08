@@ -20,7 +20,11 @@
       "email": "kishore.narendran09@gmail.com"
     }
   ],
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karthikb351/OpenCAD.git"
+  },
+  "license": "GPL-3.0",
   "dependencies": {
     "async": "^1.4.2",
     "chai": "^3.2.0",
